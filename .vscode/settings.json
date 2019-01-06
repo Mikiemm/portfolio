@@ -1,0 +1,12 @@
+{
+  "npm.enableScriptExplorer": true,
+  "npm.scriptExplorerAction": "run",
+  "files.exclude": {
+    "**/.cache": true,
+    "**/public": true
+  },
+  "zenMode.fullScreen": false,
+  "zenMode.hideActivityBar": false,
+  "zenMode.centerLayout": false,
+  "problems.autoReveal": false,
+}

@@ -1,0 +1,94 @@
+import React from 'react'
+import styled from '@emotion/styled'
+import { colors } from './theme'
+import { StaticQuery, graphql } from 'gatsby'
+
+const Header = styled('main')`
+  background: ${colors.bg};
+  padding: 180px 72px 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: sticky;
+
+  top: 0;
+  height: 100vh;
+
+  @media (max-width: 800px) {
+    position: static;
+    height: auto;
+    padding: 144px 2em 2em;
+    max-height: 80vh;
+  }
+
+`
+
+const Name = styled.h1`
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: ${colors.black};
+  word-spacing: 100vw;
+  &:after {
+    display: block;
+    content: "—";
+  }
+`
+
+const Description = styled.p`
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.59;
+  letter-spacing: 1px;
+  color: ${colors.black};
+`
+
+const Resume = styled.a`
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.59;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: ${colors.grey};
+  transition: color 0.3s;
+  margin-bottom: 32px;
+  
+  &:hover {
+    color: ${colors.black};
+  }
+`
+
+export default () => (
+  <StaticQuery
+    query={graphql`
+      query {
+        site {
+          siteMetadata {
+            title
+            description
+          }
+        }
+      }
+    `}
+    render={({ site }) => (
+      <Header>
+        <Name>{site.siteMetadata.title}</Name>
+        <Description>{site.siteMetadata.description}</Description>
+        <Resume rel="noopener" href="https://drive.google.com/file/d/1Piw16es-cT4mugAfgZ6Sqffv5XAUwdNy/view" target="_blank">Résumé</Resume>
+      </Header>
+    )}
+  />
+)
+
