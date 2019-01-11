@@ -1,9 +1,8 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import rehypeReact from 'rehype-react'
-import { Link } from 'gatsby'
+import { Link, graphql, StaticQuery } from 'gatsby'
 import { colors } from './theme'
-
 
 
 const FullWidth = styled.span`
@@ -137,13 +136,46 @@ const NoHorizontalScroll = styled.div`
   overflow-x: hidden;
 `
 
-export default ({ htmlAst }) => (
+const Header = styled.header`
+  font-size: 1em;
+`
+
+const Name = styled.p`
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: ${colors.black};
+  word-spacing: 100vw;
+`
+
+export default ({ htmlAst, next }) => (
   <NoHorizontalScroll>
     <Detail>
-      <BackLink to="/">back to all</BackLink>
+      <StaticQuery
+        query={graphql`
+          query {
+            site {
+              siteMetadata { title }
+            }
+          }
+        `}
+        render={({ site: { siteMetadata: { title }}}) => (
+          <Header>
+            <Name>{title}</Name>
+            <BackLink to="/">back to all</BackLink>
+          </Header>
+        )}
+      />
       <Content>
         { renderAst(htmlAst) }
-        <BackLink to="/">show all projects</BackLink>
+        { next && <BackLink to={next}>Next project</BackLink> }
+        { !next && <BackLink to="/">Show all projects</BackLink> }
       </Content>
     </Detail>
   </NoHorizontalScroll>

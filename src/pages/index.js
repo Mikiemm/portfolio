@@ -7,7 +7,7 @@ import Homepage from '../components/homepage'
 export default ({ data }) => {
   return (
     <Layout path="/" title={data.site.siteMetadata.title} description={data.site.siteMetadata.description}>
-      <Homepage/>
+      <Homepage />
     </Layout>
   )
 }

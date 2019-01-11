@@ -22,11 +22,16 @@ exports.createPages = ({ actions, graphql }) => {
       return Promise.reject(result.errors)
     }
 
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    const edges = result.data.allMarkdownRemark.edges
+
+    edges.forEach(({ node }, index) => {
+      const prev = index > 0 ? edges[index - 1].node.frontmatter.path : undefined
+      const next = index + 1 < edges.length ? edges[index + 1].node.frontmatter.path : undefined
+
       createPage({
         path: node.frontmatter.path,
         component: template,
-        context: {}, // additional data can be passed via context
+        context: { prev, next }, // additional data can be passed via context
       })
     })
   })

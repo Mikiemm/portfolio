@@ -5,12 +5,13 @@ import Detail from '../components/detail'
 
 export default function Template({
   data, 
+  pageContext: { next },
 }) {
   const { markdownRemark, site: { siteMetadata } } = data 
   const { frontmatter, htmlAst, excerpt } = markdownRemark
   return (
     <Layout title={`${frontmatter.title} | ${siteMetadata.title}`} description={excerpt || siteMetadata.description} path={frontmatter.path}>
-      <Detail title={frontmatter.title} htmlAst={htmlAst} />
+      <Detail title={frontmatter.title} htmlAst={htmlAst} next={next} />
     </Layout>
   )
 }

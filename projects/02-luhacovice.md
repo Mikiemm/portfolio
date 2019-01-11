@@ -13,6 +13,7 @@ background:
 ---
 
 ![Nové logo](images/luhacovice/logo.png)
+
 # Logo města Luhačovice???
 
 Návrh loga a vizuálního stylu pro lázeňské město Luhačovice
