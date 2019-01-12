@@ -2,7 +2,11 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { colors } from './theme'
 import { StaticQuery, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 
+const Avatar = styled(Img)`
+  border-radius: 100%;
+`
 const Header = styled('main')`
   background: ${colors.bg};
   padding: 180px 72px 72px;
@@ -52,9 +56,9 @@ const Description = styled.p`
 `
 
 const Resume = styled.a`
-  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-family: 'Asap Condensed', sans-serif;
   font-size: 17px;
-  font-weight: bold;
+  font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.59;
@@ -64,6 +68,12 @@ const Resume = styled.a`
   color: ${colors.grey};
   transition: color 0.3s;
   margin-bottom: 32px;
+  display: inline-flex;
+  align-items: center;
+
+  & svg {
+    margin-left: 3px;
+  }
   
   &:hover {
     color: ${colors.black};
@@ -74,6 +84,13 @@ export default () => (
   <StaticQuery
     query={graphql`
       query {
+        file(relativePath: { eq: "images/profile.jpg" }) {
+          childImageSharp {
+            fixed(width: 97) {
+              ...GatsbyImageSharpFixed_noBase64
+            }
+          }
+        }
         site {
           siteMetadata {
             title
@@ -82,13 +99,24 @@ export default () => (
         }
       }
     `}
-    render={({ site }) => (
+    render={({ site, file }) => {
+      return (
       <Header>
+        <Avatar fixed={file.childImageSharp.fixed} />
         <Name>{site.siteMetadata.title}</Name>
         <Description>{site.siteMetadata.description}</Description>
-        <Resume rel="noopener" href="https://drive.google.com/file/d/1Piw16es-cT4mugAfgZ6Sqffv5XAUwdNy/view" target="_blank">Résumé</Resume>
+        <Resume rel="noopener" href="https://drive.google.com/file/d/1Piw16es-cT4mugAfgZ6Sqffv5XAUwdNy/view" target="_blank">
+          Résumé
+          <svg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 13 13'>
+              <g fill='none' fillRule='evenodd'>
+                  <path d='M-1-1h15v15H-1z' />
+                  <path fill='currentColor' fillRule='nonzero' d='M10.875 10.875h-8.75v-8.75H6.5V.875H.875v11.25h11.25V6.5h-1.25v4.375zM7.75.875v1.25h2.244L3.85 8.269l.881.881 6.144-6.144V5.25h1.25V.875H7.75z'
+                  />
+              </g>
+          </svg>
+        </Resume>
       </Header>
-    )}
+    )}}
   />
 )
 

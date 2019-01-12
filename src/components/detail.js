@@ -11,14 +11,17 @@ const FullWidth = styled.span`
   position: relative;
   left: 50%;
   right: 50%;
-  margin: 15px 0;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  margin: 40px -50vw;
 
   ${({ color }) => color ? `background-color: ${color};` : ''}
 
   & .gatsby-resp-image-image {
     box-shadow: none !important;
+  }
+
+  & p {
+    margin: 0;
+    padding: 0;
   }
 `
 
@@ -30,9 +33,9 @@ const renderAst = new rehypeReact({
 }).Compiler
 
 const BackLink = styled(Link)`
-  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-family: 'Asap Condensed', sans-serif;
   font-size: 17px;
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.59;
@@ -41,6 +44,28 @@ const BackLink = styled(Link)`
   text-decoration: none;
   color: ${colors.grey};
   transition: color 0.3s;
+
+  &:hover, &:active {
+    color: ${colors.black};
+  }
+`
+
+const HeaderLink = styled.span`
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.59;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: ${colors.grey};
+  transition: color 0.3s;
+
+  & svg {
+    margin-right: 6px;
+  }
 
   &:hover, &:active {
     color: ${colors.black};
@@ -60,36 +85,41 @@ const Content = styled.main`
   color: ${colors.black};
 
   h1 {
-    text-align: center;
     font-family: Poppins, sans-serif;
     text-transform: uppercase;
-    font-size: 30px;
-    font-weight: 700;
+    
+    font-size: 45px;
+    font-weight: bold;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.33;
-    letter-spacing: 4px;
+    line-height: 1.2em;
+    letter-spacing: 6px;
+    text-align: center;
     color: ${colors.black};
 
     &:after {
+      margin: .3em 0 0;
       display: block;
       content: "—";
+      line-height: 0.89em;
     }
   }
 
   h2 {
     font-family: Poppins, sans-serif;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: bold;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.33;
     letter-spacing: 4px;
+    margin: 0;
+    padding: 16px 0 14px;
     color: ${colors.black};
   }
 
   h3 {
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-family: 'Asap Condensed', sans-serif;
     font-size: 20px;
     font-weight: 500;
     font-style: normal;
@@ -97,6 +127,8 @@ const Content = styled.main`
     line-height: 1.35;
     letter-spacing: 3.5px;
     text-transform: uppercase;
+    margin: 0;
+    padding: 23px 0 0;
     color: ${colors.black};
   }
 
@@ -112,6 +144,8 @@ const Content = styled.main`
     font-stretch: normal;
     line-height: 1.59;
     letter-spacing: 1px;
+    margin: 0;
+    padding: 8px 0 17px;
     color: ${colors.black};
   }
 
@@ -136,8 +170,17 @@ const NoHorizontalScroll = styled.div`
   overflow-x: hidden;
 `
 
-const Header = styled.header`
+const Header = styled(Link)`
   font-size: 1em;
+  margin: 72px;
+  margin-bottom: 0;
+  display: block;
+  text-decoration: none;
+
+  @media (max-width: 800px) {
+    margin: 2em;
+    margin-bottom: 4em;
+  }
 `
 
 const Name = styled.p`
@@ -156,22 +199,30 @@ const Name = styled.p`
 
 export default ({ htmlAst, next }) => (
   <NoHorizontalScroll>
-    <Detail>
-      <StaticQuery
-        query={graphql`
-          query {
-            site {
-              siteMetadata { title }
-            }
+    <StaticQuery
+      query={graphql`
+        query {
+          site {
+            siteMetadata { title }
           }
-        `}
-        render={({ site: { siteMetadata: { title }}}) => (
-          <Header>
-            <Name>{title}</Name>
-            <BackLink to="/">back to all</BackLink>
-          </Header>
-        )}
-      />
+        }
+      `}
+      render={({ site: { siteMetadata: { title }}}) => (
+        <Header to="/">
+          <Name>{title}</Name>
+          <HeaderLink to="/">
+            <svg xmlns='http://www.w3.org/2000/svg' width='11' height='11' viewBox='0 0 11 11'>
+              <g fill='none' fillRule='evenodd'>
+                <path d='M-2-3h15v15H-2z' />
+                <path fill='currentColor' d='M10.5 4.875H2.894l3.493-3.494L5.5.5l-5 5 5 5 .881-.881-3.487-3.494H10.5z' />
+              </g>
+            </svg>
+            show all projects
+          </HeaderLink>
+        </Header>
+      )}
+    />
+    <Detail>
       <Content>
         { renderAst(htmlAst) }
         { next && <BackLink to={next}>Next project</BackLink> }

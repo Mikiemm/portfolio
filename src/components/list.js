@@ -45,9 +45,9 @@ const Title = styled.h2`
 `
 
 const Type = styled.h3`
-  font-family: 'IBM Plex Sans Condensed', sans-serif;
-  font-size: 17px;
-  font-weight: 300;
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.59;
@@ -159,7 +159,7 @@ export default () => (
                         height
                         src
                       }
-                      fluid(quality: 100, srcSetBreakpoints: [200, 400, 600, 800], maxWidth: 9999999) {
+                      fluid(quality: 95, srcSetBreakpoints: [200, 400, 600, 800], maxWidth: 9999999) {
                         ...GatsbyImageSharpFluid_noBase64
                       }
                     }
@@ -173,7 +173,7 @@ export default () => (
                       original {
                         src
                       }
-                      fluid(quality: 50, srcSetBreakpoints: [200, 400, 600, 800], maxWidth: 9999999) {
+                      fluid(quality: 95, srcSetBreakpoints: [200, 400, 600, 800], maxWidth: 9999999) {
                         ...GatsbyImageSharpFluid
                       }
                     }

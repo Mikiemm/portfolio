@@ -5,7 +5,7 @@ type: "Game"
 textColor: "#FFF"
 cover:
   url: ""
-  image: ./images/dress-up/nahled.png
+  image: images/dress-up/nahled.png
 background:
   url: ""
   image: null
@@ -21,7 +21,7 @@ canyon. it is the spectacular edge of the Paunsaugunt Plateau, a place where int
 <full-width color="#6ac9ca">
 
   ![Screenshoty](./images/dress-up/dressup.png)
-  
+
 </full-width>
 
 ## Dress Up Game
