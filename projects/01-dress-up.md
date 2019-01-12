@@ -4,8 +4,8 @@ title: "Dress up game"
 type: "Game"
 textColor: "#FFF"
 cover:
-  url: "https://www.pazitka.cz/data_2/8212normal.jpg"
-  image: ./images/dress-up/nahled.png
+  url: ""
+  image: ./images/dress-up/paprika.jpg
 background:
   url: ""
   image: null
@@ -18,7 +18,7 @@ The state of Utah in the United States is home to lots of beautiful National Par
 canyon. it is the spectacular edge of the Paunsaugunt Plateau, a place where intricately carved towers & archways of stone shimmer in a dazzling array of colour under the bright sun.
 
 <!-- Pozor, je třeba oddělit potenciální obsah v Markdownu prázdnými řádky, obrázky doporučuji načítat markdownem, nikoliv HTML -->
-<full-width color="#6ac9ca">
+<full-width color="#6a0000">
 
   ![Screenshoty](./images/dress-up/dressup.png)
 
