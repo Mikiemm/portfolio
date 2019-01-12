@@ -137,7 +137,7 @@ export default ({ title, children, description, color }) => (
       <meta charSet="utf-8" />
       <title>{title}</title>
       <meta name="description" content={description} />
-      { color && <meta name="theme-color" content={color} /> }
+      <meta name="theme-color" content={color || colors.bg} />
     </Helmet>
     <Global
       styles={globalStyles}
