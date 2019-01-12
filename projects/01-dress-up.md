@@ -4,7 +4,7 @@ title: "Dress up game"
 type: "Game"
 textColor: "#FFF"
 cover:
-  url: ""
+  url: "https://www.pazitka.cz/data_2/8212normal.jpg"
   image: ./images/dress-up/nahled.png
 background:
   url: ""
