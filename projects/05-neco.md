@@ -1,5 +1,5 @@
 ---
-path: "/project/dress-up-text"
+path: "/project/rim-redesign"
 title: "Dress up game"
 type: "Game"
 textColor: "#FFF"
