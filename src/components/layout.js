@@ -130,13 +130,14 @@ body {
 }
 `
 
-export default ({ title, children, description }) => (
+export default ({ title, children, description, color }) => (
   <Wrapper>
     <Helmet>
       <html lang="en" />
       <meta charSet="utf-8" />
       <title>{title}</title>
       <meta name="description" content={description} />
+      { color && <meta name="theme-color" content={color} /> }
     </Helmet>
     <Global
       styles={globalStyles}

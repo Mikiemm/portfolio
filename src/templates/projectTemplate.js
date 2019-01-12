@@ -10,7 +10,7 @@ export default function Template({
   const { markdownRemark, site: { siteMetadata } } = data 
   const { frontmatter, htmlAst, excerpt } = markdownRemark
   return (
-    <Layout title={`${frontmatter.title} | ${siteMetadata.title}`} description={excerpt || siteMetadata.description} path={frontmatter.path}>
+    <Layout title={`${frontmatter.title} | ${siteMetadata.title}`} description={excerpt || siteMetadata.description} path={frontmatter.path} color={frontmatter.background.color}>
       <Detail title={frontmatter.title} htmlAst={htmlAst} next={next} />
     </Layout>
   )
@@ -30,6 +30,9 @@ export const pageQuery = graphql`
       frontmatter {
         path
         title
+        background {
+          color
+        }
       }
     }
   }
