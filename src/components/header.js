@@ -6,10 +6,11 @@ import Img from 'gatsby-image'
 
 const Avatar = styled(Img)`
   border-radius: 100%;
+  flex-shrink: 0;
 `
 const Header = styled('main')`
   background: ${colors.bg};
-  padding: 180px 72px 72px;
+  padding: 0 72px 45px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
