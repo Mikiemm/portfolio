@@ -5,7 +5,7 @@ type: "Game"
 textColor: "#FFF"
 cover:
   url: ""
-  image: ./images/dress-up/paprika.jpg
+  image: ./images/dress-up/nahled.png
 background:
   url: ""
   image: null
