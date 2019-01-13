@@ -9,7 +9,7 @@ cover:
 background:
   url: ""
   image: null
-  color: "#6ac9ca"
+  color: "#81c7c9"
 ---
 
 # Dress up hra
