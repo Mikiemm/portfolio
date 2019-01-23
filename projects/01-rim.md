@@ -5,10 +5,10 @@ type: "Webpage"
 textColor: "#FFF"
 cover:
   url: ""
-  image: https://rim.cz/wp-content/themes/rim_cz/img/rim_logo.svg
+  image: ./images/rim/rim_logo.svg
 background:
   url: ""
-  image:
+  image: null
   color: "#eeeeee"
 ---
 
