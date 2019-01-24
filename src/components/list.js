@@ -111,7 +111,6 @@ const ImgAsBackground = styled(Img) `
   top: 0; left: 0; right: 0; bottom: 0;
 `
 const Item = ({ title, type, path, textColor, cover: { image, url }, background: { image: bgImage, color, url: bgUrl }}) => {
-  console.log(image, url)
   return (
     <ItemContainer
       to={path}
