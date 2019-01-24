@@ -143,7 +143,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       query {
-        allMarkdownRemark(sort: { fields: fileAbsolutePath, order: ASC }) {
+        allMarkdownRemark(sort: { fields: fileAbsolutePath, order: ASC }, filter: { fileAbsolutePath: { regex: "/projects/" } }) {
           edges {
             node {
               id
