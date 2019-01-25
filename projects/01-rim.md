@@ -5,7 +5,7 @@ type: "Webpage"
 textColor: "#FFF"
 cover:
   url: ""
-  image: ./images/rim/rim_logo.svg
+  image: ./images/marie-terezie/blur.png
 background:
   url: ""
   image: ./images/marie-terezie/blur.png
