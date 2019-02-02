@@ -14,7 +14,7 @@ background:
 
 # Biennial of Student Design: DESIGN.S
 
-<full-width color="#ffffff">
+<full-width color="#dddddd">
 
   ![Screenshoty](./images/design-s/design-s_isometric.jpg)
 
