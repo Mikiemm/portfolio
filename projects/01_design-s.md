@@ -5,7 +5,7 @@ type: "Mobile-first Web"
 textColor: "#FFF"
 cover:
   url: ""
-  image: ./images/marie-terezie/blur.png
+  image: ./images/design-s/design-s_mockup.jpg
 background:
   url: ""
   image: null
@@ -18,6 +18,6 @@ DESIGN.S – international biennial of student design is planing to introduce th
 
 <full-width color="#eeeeee">
 
-  ![Screenshoty](./images/design-s_mockup.jpg)
+  ![Screenshoty](./images/design-s/design-s_mockup.jpg)
 
 </full-width>
