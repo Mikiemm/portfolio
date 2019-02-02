@@ -5,10 +5,10 @@ type: "Mobile-first Web"
 textColor: "#332b35"
 cover:
   url: ""
-  image: .images/design-s/design-s_bg.jpg
+  image: .images/design-s/design-s_mockup.jpg
 background:
   url: ""
-  image: .images/design-s/design-s_bg.jpg
+  image: .images/design-s/design-s_mockup.jpg
   color: "#eeeeee"
 ---
 
