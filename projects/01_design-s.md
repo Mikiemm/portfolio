@@ -5,7 +5,7 @@ type: "Mobile-first Web"
 textColor: "#FFF"
 cover:
   url: ""
-  image: ./images/design-s/design-s_mockup.jpg
+  image: null
 background:
   url: ""
   image: ./images/design-s/design-s_mockup.jpg
