@@ -2,7 +2,7 @@
 path: "/project/design-s"
 title: "Biennial of Student Design: DESIGN.S"
 type: "Mobile-first Web"
-textColor: "#332b35"
+textColor: "#2e4854"
 cover:
   url: ""
   image: ./images/design-s/design-s_main.png
@@ -16,8 +16,10 @@ background:
 
 DESIGN.S – international biennial of student design is planing to introduce the best of student design. It ideologically and partly practically follows the long tradition of exhibitions of graduate works by students of the Department of Construction VUT in Brno and the Faculty of Multimedia Communications UTB in Zlín regularly organized in Technical Museum in Brno. This event with awards is concentrated on the topic of student design.
 
-<full-width color="#fff">
+![Screenshoty](./images/design-s/design-s_mockup.jpg)
 
-  ![Screenshoty](./images/design-s/design-s_mockup.jpg)
+## Challenge
+Create a website for this year's Biennial of Student Design: Design.s.
 
-</full-width>
+## My role
+Research to prototype
