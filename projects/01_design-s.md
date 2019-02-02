@@ -1,7 +1,7 @@
 ---
-path: "/project/rim"
-title: "Redesign webu RIM"
-type: "Webpage"
+path: "/project/design-s"
+title: "Biennial of Student Design DESIGN.S"
+type: "Mobile First Web"
 textColor: "#FFF"
 cover:
   url: ""
@@ -12,4 +12,4 @@ background:
   color: "#eeeeee"
 ---
 
-# Rim – redesign webu
+# Biennial of Student Design DESIGN.S
