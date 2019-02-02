@@ -8,7 +8,7 @@ cover:
   image: ./images/design-s/design-s_mockup.jpg
 background:
   url: ""
-  image: null
+  image: ./images/design-s/design-s_mockup.jpg
   color: "#eeeeee"
 ---
 
