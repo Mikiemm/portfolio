@@ -38,7 +38,7 @@ DESIGN.S is a biennial __international event which supports students__ of produc
 ## User Research
 Based on a couple of interviews with a target group (design students) I made a persona that you can view below.
 
-![Screenshoty](./images/design-s/persona.jpeg)
+![Screenshoty](./images/design-s/persona.png)
 
 ## User Experience
 
