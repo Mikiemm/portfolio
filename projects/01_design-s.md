@@ -20,7 +20,7 @@ background:
 
 </full-width>
 
-### Overview
+## Overview
 
 DESIGN.S is a biennial _international event which supports students_ of product and industrial design. Every two years, they entirely change visuals to appear modern and attractive to young people. While their visuals use to be eye-catching and work well, their web was confusing, hard to read or scan, and overall didn't look appealing. So I decided to change it!
 
@@ -34,5 +34,7 @@ DESIGN.S is a biennial _international event which supports students_ of product 
 * UX Analysis _(persona, flows)_
 * Design _(UI Design, visual identity)_
 * Prototyping _(Low to High Fidelity)_
+
+## User Research
 
 ![Screenshoty](./images/design-s/design-s_mockup.jpg)
