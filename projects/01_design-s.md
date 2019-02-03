@@ -14,13 +14,13 @@ background:
 
 # Biennial of Student Design: DESIGN.S
 
+DESIGN.S is a biennial international event which supports students of product and industrial design. Every two years, they entirely change visuals to appear modern and attractive to young people. While their visuals use to be eye-catching and work well, their web was confusing, hard to read or scan, and didn't look appealing. So I decided to change it!
+
 <full-width color="#dddddd">
 
   ![Screenshoty](./images/design-s/design-s_isometric.jpg)
 
 </full-width>
-
-DESIGN.S – international biennial of student design is planing to introduce the best of student design. It ideologically and partly practically follows the long tradition of exhibitions of graduate works by students of the Department of Construction VUT in Brno and the Faculty of Multimedia Communications UTB in Zlín regularly organized in Technical Museum in Brno. This event with awards is concentrated on the topic of student design.
 
 ### Challenge
 Create a website for this year's Biennial of Student Design: Design.s.
