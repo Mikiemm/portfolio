@@ -22,7 +22,7 @@ background:
 
 ## Overview
 
-DESIGN.S is a biennial __international event which supports students__ of product and industrial design. Every two years, they entirely change visuals to appear modern and attractive to young people. While their visuals use to be eye-catching and work well, their web was confusing, hard to read or scan, and overall didn't look appealing. So I decided to change it!
+DESIGN.S is a biennial __international event which supports students of industrial and product design__. Every two years, they entirely change visuals to appear modern and attractive to young people. While their visuals use to be eye-catching and work well, their web was confusing, hard to read or scan, and overall didn't look appealing. So I decided to change it!
 
 ### Design Goals
 * encourage students to participate in the event
@@ -32,11 +32,11 @@ DESIGN.S is a biennial __international event which supports students__ of produc
 
 ### My Responsibilities
 * UX Analysis _(persona, flows)_
-* Design _(UI Design, visual identity)_
-* Prototyping _(Low to High Fidelity)_
+* Design _(UI design, visual identity)_
+* Prototyping _(low to high fidelity)_
 
 ## User Research
-Based on a couple of interviews with a target group (design students) I made a persona that you can view below.
+Based on a couple of interviews with a target group (industrial and product design students) I made a persona that you can view below.
 
 ![Persona](./images/design-s/persona.jpg)
 
