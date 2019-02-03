@@ -35,9 +35,7 @@ DESIGN.S is a biennial _international event which supports students_ of product 
 * Design _(UI Design, visual identity)_
 * Prototyping _(Low to High Fidelity)_
 
-<full-width color="#dddddd">
-</full-width>
-
 ## User Research
+Based on a couple of interviews with a target group (design students) I made a persona that you can view below.
 
-![Screenshoty](./images/design-s/design-s_mockup.jpg)
+![Screenshoty](https://i.pinimg.com/originals/b6/12/06/b61206d271a3c587f59f30f3828d64ed.png)
