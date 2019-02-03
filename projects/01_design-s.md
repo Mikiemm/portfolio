@@ -30,6 +30,9 @@ DESIGN.S is a biennial international event which supports students of product an
 * inform and invite public
 * bonus: create an attractive visual identity (you can see some examples at the end of this article)
 
-### My role
+### My Responsibilities
+* UX Analysis (persona, flows)
+* Design (UI Design, visual identity)
+* Prototyping (Low to High Fidelity)
 
 ![Screenshoty](./images/design-s/design-s_mockup.jpg)
