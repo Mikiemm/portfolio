@@ -28,7 +28,7 @@ DESIGN.S is a biennial _international event which supports students_ of product 
 * encourage students to participate in the event
 * make it easy to find relevant information
 * inform and invite public
-* _bonus:_ create an attractive visual identity (you can see some examples at the end of this article)
+* create an attractive visual identity (_bonus:_ at the end of this article, you can see a paper catalogue and other)
 
 ### My Responsibilities
 * UX Analysis _(persona, flows)_
