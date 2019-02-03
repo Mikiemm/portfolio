@@ -40,6 +40,16 @@ Based on a couple of interviews with a target group (design students) I made a p
 
 ![Screenshoty](https://i.pinimg.com/originals/b6/12/06/b61206d271a3c587f59f30f3828d64ed.png)
 
-## Solution
+## User Experience
+
+### User Journey
+
+### Information Architecture
+
+### User Flow with Blockframes
+
+## User Interface
+
+### Moodboard / přehled barev a fontů
 
 ## Reflection
