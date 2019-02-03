@@ -26,17 +26,9 @@ DESIGN.S is a biennial international event which supports students of product an
 
 ### Challenge
 Create a website for this year's Biennial of Student Design: Design.s.
-
 * toto
 * je
 * seznam
-
-Menší podnadpis
----------------
-
-1. toto 
-2. se čísluje
-1. ale na číslech nezáleží
 
 ### My role
 Research to prototype
