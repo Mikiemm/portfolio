@@ -36,7 +36,7 @@ DESIGN.S is a biennial __international event which supports students of industri
 * Prototyping _(low to high fidelity)_
 
 ## User Research
-Based on a couple of interviews with a target group (industrial and product design students) I made a persona that you can view below.
+To understand better for whom I'm designing, I conducted a couple of interviews with a target group (industrial design students). Based on that, I made a persona you can view below.
 
 ![Persona](./images/design-s/persona.jpg)
 
