@@ -50,6 +50,6 @@ Based on a couple of interviews with a target group (design students) I made a p
 
 ## User Interface
 
-### Moodboard / přehled barev a fontů
+Moodboard, přehled barev a fontů, gif
 
 ## Reflection
