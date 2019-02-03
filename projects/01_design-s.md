@@ -2,7 +2,7 @@
 path: "/project/design-s"
 title: "Biennial of Student Design: DESIGN.S"
 type: "Mobile-first Web"
-textColor: "#393939"
+textColor: "#2D4351"
 cover:
   url: ""
   image: ./images/design-s/design-s_main.png
@@ -40,6 +40,6 @@ Based on a couple of interviews with a target group (design students) I made a p
 
 ![Screenshoty](https://i.pinimg.com/originals/b6/12/06/b61206d271a3c587f59f30f3828d64ed.png)
 
-# Solution
+## Solution
 
-# Reflection
+## Reflection
