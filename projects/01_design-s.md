@@ -52,4 +52,8 @@ To understand better for whom I'm designing, I conducted a couple of interviews 
 
 Moodboard, přehled barev a fontů, gif
 
+![UI Design](./images/design-s/design-s_hf_3.png)
+
+![UI Design](./images/design-s/design-s_main2.png)
+
 ## Reflection
