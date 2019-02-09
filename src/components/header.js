@@ -108,7 +108,7 @@ export default () => (
         <Name>{site.siteMetadata.title}</Name>
         <Description>{site.siteMetadata.description}</Description>
         <Resume rel="noopener" href="https://drive.google.com/file/d/1Piw16es-cT4mugAfgZ6Sqffv5XAUwdNy/view" target="_blank">
-          Résumé
+          'Résumé with contacts'
           <svg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 13 13'>
               <g fill='none' fillRule='evenodd'>
                   <path d='M-1-1h15v15H-1z' />
