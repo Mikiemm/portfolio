@@ -48,6 +48,8 @@ To understand better for whom I'm designing, I conducted a couple of interviews 
 
 ### User Flow with Blockframes
 
+![Userflow](./images/design-s/userflow.jpg)
+
 ## User Interface
 
 Moodboard, přehled barev a fontů, gif
