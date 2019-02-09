@@ -54,6 +54,7 @@ const Description = styled.p`
   line-height: 1.59;
   letter-spacing: 1px;
   color: ${colors.black};
+  margin-top: -20px;
 `
 
 const Resume = styled.a`
