@@ -38,7 +38,11 @@ DESIGN.S is a biennial __international event which supports students of industri
 ## User Research
 To understand better for whom I'm designing, I conducted a couple of interviews with a target group (industrial design students). Based on that, I made a persona you can view below.
 
+<full-width color="#212223">
+
 ![Persona](./images/design-s/persona.jpg)
+
+</full-width>
 
 ## User Experience
 
