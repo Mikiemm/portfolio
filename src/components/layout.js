@@ -138,7 +138,7 @@ export default ({ title, children, description, color }) => (
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta name="theme-color" content={color || colors.bg} />
-      <link rel="icon" href="/static/favicon.ico">
+      <link rel="icon" href="/favicon.ico">
     </Helmet>
     <Global
       styles={globalStyles}
