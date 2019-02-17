@@ -8,8 +8,8 @@ cover:
   image: ./images/design-s/design-s_main.png
 background:
   url: ""
-  image: ./images/design-s/design-s_bg.jpg
-  color: "#eeeeee"
+  image: none
+  color: "#ffffff"
 ---
 
 # Biennial of Student Design: DESIGN.S
