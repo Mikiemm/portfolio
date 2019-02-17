@@ -5,7 +5,7 @@ type: "Mobile-first Web"
 textColor: "#2B404E"
 cover:
   url: ""
-  image: ./images/design-s/design-s_isometric.jpg
+  image: ./images/design-s/design-s_isometric_2.png
 background:
   url: ""
   image: null
