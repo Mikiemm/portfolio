@@ -9,7 +9,7 @@ cover:
 background:
   url: ""
   image: null
-  color: "#dddddd"
+  color: "#065e46"
 ---
 
 # Biennial of Student Design: DESIGN.S
