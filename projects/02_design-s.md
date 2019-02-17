@@ -1,5 +1,5 @@
 ---
-path: "/project/design"
+path: "/project/design-s"
 title: "Biennial of Student Design: DESIGN.S"
 type: "Mobile-first Web"
 textColor: "#2D4351"
@@ -9,7 +9,7 @@ cover:
 background:
   url: ""
   image: none
-  color: "#ffffff"
+  color: "#eeeeee"
 ---
 
 # Biennial of Student Design: DESIGN.S
