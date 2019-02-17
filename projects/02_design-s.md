@@ -2,7 +2,7 @@
 path: "/project/designs"
 title: "Biennial of Student Design: DESIGN.S"
 type: "Mobile-first Web"
-textColor: "#2D4351"
+textColor: "#ffffff"
 cover:
   url: ""
   image: ./images/design-s/design-s_main.png
