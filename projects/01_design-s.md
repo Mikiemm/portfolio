@@ -8,7 +8,7 @@ cover:
   image: ./images/design-s/design-s_main.png
 background:
   url: ""
-  image: ""
+  image: none
   color: "#eceef8"
 ---
 
