@@ -5,7 +5,7 @@ type: "Mobile-first Web"
 textColor: "#2d2d2d"
 cover:
   url: ""
-  image: ./images/design-s/design-s_isometric_2.png
+  image: ./images/design-s/design-s_preview.png
 background:
   url: ""
   image: null
@@ -16,7 +16,7 @@ background:
 
 <full-width color="#dddddd">
 
-  ![Isometric view](./images/design-s/design-s_isometric.jpg)
+  ![Isometric view](./images/design-s/design-s_preview_2.jpg)
 
 </full-width>
 
