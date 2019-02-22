@@ -17,7 +17,6 @@ const FullWidth = styled.span`
 
   & .gatsby-resp-image-image {
     box-shadow: none !important;
-    box-shadow: 0px 0px 0px 0px #fafafa;
   }
 
   & p {
@@ -135,6 +134,7 @@ const Content = styled.main`
 
   img {
     max-width: 100%;
+    box-shadow: none !important;
   }
 
   p {
