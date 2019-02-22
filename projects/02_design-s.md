@@ -16,7 +16,7 @@ background:
 
 <full-width color="#dddddd">
 
-  ![Isometric view](./images/design-s/design-s_preview_2.jpg)
+  ![Header](./images/design-s/design-s_header.jpg)
 
 </full-width>
 
@@ -36,7 +36,9 @@ DESIGN.S is a biennial __international event which supports students of industri
 * Prototyping _(low to high fidelity)_
 
 ## User Research
-To understand better for whom I'm designing, I conducted a couple of interviews with a target group (industrial design students). Based on that, I made a persona you can view below.
+To understand better for whom I'm designing, I conducted a couple of interviews with a _primary_ target group (industrial design students). Based on that, I made a persona you can view below.
+
+Secondary, there is another target group – the visitors to the exhibition. These are usually man and woman from 20 to 50 years old with interest in art and design.
 
 ![Persona](./images/design-s/persona.jpg)
 
