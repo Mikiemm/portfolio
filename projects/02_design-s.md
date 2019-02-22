@@ -46,7 +46,7 @@ _Secondary_, there is another target group – the visitors to the exhibition. T
 
 ### User Journey
 
-![User journey](./images/design-s/persona.jpg)
+![User journey](./images/design-s/userjourney.jpg)
 
 ### Information Architecture
 
