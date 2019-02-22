@@ -22,7 +22,7 @@ background:
 
 ## Overview
 
-DESIGN.S is a biennial __international event which supports students of industrial and product design__. Every two years, they entirely change visuals to appear modern and attractive to young people. While their visuals use to be eye-catching and work well, their web was confusing, hard to read or scan, and overall didn't look appealing. So I decided to change it!
+DESIGN.S is a biennial _international event which supports students of industrial and product design_. Every two years, they entirely change visuals to appear modern and attractive to young people. While their visuals use to be eye-catching and work well, their web was confusing, hard to read or scan, and overall didn't look appealing. So I decided to change it!
 
 ### Design Goals
 * encourage students to participate in the event
