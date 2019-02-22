@@ -45,6 +45,7 @@ _Secondary_, there is another target group – the visitors to the exhibition. T
 ## User Experience
 
 ### User Journey
+Using the persona and the competition schedule, I created a user journey. It helped me a lot to understand, when and in which context the web will be used.
 
 ![User journey](./images/design-s/userjourney.png)
 
