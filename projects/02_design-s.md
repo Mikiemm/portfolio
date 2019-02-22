@@ -38,7 +38,7 @@ DESIGN.S is a biennial __international event which supports students of industri
 ## User Research
 To understand better for whom I'm designing, I conducted a couple of interviews with a _primary_ target group (industrial design students). Based on that, I made a persona you can view below.
 
-Secondary, there is another target group – the visitors to the exhibition. These are usually man and woman from 20 to 50 years old with interest in art and design.
+_Secondary_, there is another target group – the visitors to the exhibition. These are usually man and woman from 20 to 50 years old with interest in art and design.
 
 ![Persona](./images/design-s/persona.jpg)
 
@@ -46,13 +46,15 @@ Secondary, there is another target group – the visitors to the exhibition. The
 
 ### User Journey
 
+![User journey](./images/design-s/persona.jpg)
+
 ### Information Architecture
 
 ### User Flow with Blockframes
 
 <full-width color="#212224">
 
-![Userflow](./images/design-s/userflow.jpg)
+![User flow](./images/design-s/userflow.jpg)
 
 </full-width>
 
