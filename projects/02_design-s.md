@@ -40,13 +40,13 @@ To understand better for whom I'm designing, I conducted a couple of interviews 
 
 _Secondary_, there is another target group – the visitors to the exhibition. These are usually man and woman from 20 to 50 years old with interest in art and design.
 
-![Persona](./images/design-s/persona.jpg)
+![Persona](./images/design-s/persona.png)
 
 ## User Experience
 
 ### User Journey
 
-![User journey](./images/design-s/userjourney.jpg)
+![User journey](./images/design-s/userjourney.png)
 
 ### Information Architecture
 
