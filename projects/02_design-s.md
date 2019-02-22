@@ -49,7 +49,7 @@ Using the persona and the competition schedule, I created a user journey. It hel
 
 ![User journey](./images/design-s/userjourney.png)
 
-### Information Architecture
+### Basic structure
 
 ### User Flow with Blockframes
 
