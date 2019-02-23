@@ -128,7 +128,7 @@ const Content = styled.main`
     letter-spacing: 1.5px;
     text-transform: uppercase;
     margin: 0;
-    padding: 30px 0 2px;
+    padding: 20px 0 2px;
     color: ${colors.black};
   }
 
@@ -146,12 +146,20 @@ const Content = styled.main`
     line-height: 1.59;
     letter-spacing: 0.75px;
     margin: 0;
-    padding: 5px 0 5px;
+    padding: 10px 0 10px;
     color: ${colors.black};
   }
 
   ul {
     margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  ol {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   ${BackLink} {
