@@ -150,6 +150,10 @@ const Content = styled.main`
     color: ${colors.black};
   }
 
+  ul {
+    margin: 0;
+  }
+
   ${BackLink} {
     display: block;
     text-align: center;
