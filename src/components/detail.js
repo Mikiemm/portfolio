@@ -112,7 +112,7 @@ const Content = styled.main`
     font-style: normal;
     font-stretch: normal;
     line-height: 1.33;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin: 0;
     padding: 30px 0 5px;
     color: ${colors.black};
@@ -139,7 +139,7 @@ const Content = styled.main`
 
   p {
     font-family: Poppins, sans-serif;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
