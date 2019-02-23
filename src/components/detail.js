@@ -75,7 +75,7 @@ const HeaderLink = styled.span`
 const Content = styled.main`
   max-width: 800px;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -139,14 +139,14 @@ const Content = styled.main`
 
   p {
     font-family: Poppins, sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.59;
     letter-spacing: 0.75px;
     margin: 0;
-    padding: 10px 0 25px;
+    padding: 10px 80px 25px 0;
     color: ${colors.black};
   }
 
