@@ -114,7 +114,7 @@ const Content = styled.main`
     line-height: 1.33;
     letter-spacing: 1px;
     margin: 0;
-    padding: 30px 0 5px;
+    padding: 40px 0 5px;
     color: ${colors.black};
   }
 
@@ -125,10 +125,10 @@ const Content = styled.main`
     font-style: normal;
     font-stretch: normal;
     line-height: 1.35;
-    letter-spacing: 3px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
     margin: 0;
-    padding: 15px 0 2px;
+    padding: 20px 0 2px;
     color: ${colors.black};
   }
 
@@ -146,7 +146,7 @@ const Content = styled.main`
     line-height: 1.59;
     letter-spacing: 0.75px;
     margin: 0;
-    padding: 10px 80px 25px 0;
+    padding: 5px 0 25px;
     color: ${colors.black};
   }
 
