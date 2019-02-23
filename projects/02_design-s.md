@@ -49,6 +49,13 @@ Using the persona and the competition schedule, I created a user journey. It hel
 
 ![User journey](./images/design-s/userjourney.png)
 
+The main decisions I made thanks to this journey are:
+* the web will be mobile-first
+* the content on the homepage will be changing in time because the goal of the web is changing in time
+  1. inform students about the event and motivate them to participate
+  2. invite the public to vernissage and gala evening
+  3. invite the public to the exhibition, inform about winners, show photos from the event
+
 ### Basic structure
 
 ### User Flow with Blockframes
