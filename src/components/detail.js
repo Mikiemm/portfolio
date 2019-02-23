@@ -75,7 +75,7 @@ const HeaderLink = styled.span`
 const Content = styled.main`
   max-width: 800px;
   font-family: Poppins;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
