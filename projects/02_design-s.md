@@ -51,7 +51,6 @@ Using the persona and the competition schedule, I created a user journey. It hel
 
 The main decisions I made thanks to this journey are:
 * the web will be mobile-first
-* the content on the homepage will be changing in time because the goal of the web is changing in time
   * to inform students about the event and motivate them to participate
   * to invite the public to vernissage and gala evening
   * to invite the public to the exhibition, inform about winners, show photos from the event
