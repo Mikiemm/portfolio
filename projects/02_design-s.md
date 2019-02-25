@@ -53,7 +53,7 @@ Using the persona and the competition schedule, I created a user journey. It hel
 
 The main decisions I made thanks to this journey are:
 
-* the web will be mobile-first
+* the web will be <b>mobile-first</b>
 * the content on the homepage will be changing in time because the goal of the web is changing in time
 
 ### Basic structure
