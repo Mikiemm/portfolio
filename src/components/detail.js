@@ -148,6 +148,7 @@ const Content = styled.main`
     margin: 0;
     padding: 10px 0 10px;
     color: ${colors.black};
+    max-width: 600px;
   }
 
   ul {
