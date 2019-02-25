@@ -23,6 +23,7 @@ background:
 ## Overview
 
 DESIGN.S is a biennial <b>international event which supports students of industrial and product design</b>. Every two years, they entirely change visuals to appear modern and attractive to young people.
+
 While their visuals use to be eye-catching and work well, their web was confusing, hard to read or scan, and overall didn't look appealing. So I decided to change it!
 
 ### Design Goals
