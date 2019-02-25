@@ -146,7 +146,7 @@ const Content = styled.main`
     line-height: 1.59;
     letter-spacing: 0.75px;
     margin: 0;
-    padding: 10px 140px 10px 0;
+    padding: 10px 0 10px;
     color: ${colors.black};
   }
 
