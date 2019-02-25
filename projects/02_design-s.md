@@ -22,7 +22,7 @@ background:
 
 ## Overview
 
-DESIGN.S is a biennial _international event which supports students of industrial and product design_. Every two years, they entirely change visuals to appear <b>modern and attractive</b> to young people. While their visuals use to be eye-catching and work well, their web was confusing, hard to read or scan, and overall didn't look appealing. __So I decided__ to change it!
+DESIGN.S is a biennial <b>international event which supports students of industrial and product design</b>. Every two years, they entirely change visuals to appear modern and attractive to young people. While their visuals use to be eye-catching and work well, their web was confusing, hard to read or scan, and overall didn't look appealing. So I decided to change it!
 
 ### Design Goals
 * encourage students to participate in the event
@@ -36,9 +36,9 @@ DESIGN.S is a biennial _international event which supports students of industria
 * Prototyping _(low to high fidelity)_
 
 ## User Research
-To understand better for whom I'm designing, I conducted a couple of interviews with a _primary_ target group (industrial design students). Based on that, I made a persona you can view below.
+To understand better for whom I'm designing, I conducted a couple of interviews with a <b>primary</b> target group (industrial design students). Based on that, I made a persona you can view below.
 
-_Secondary_, there is another target group – the visitors to the exhibition. These are usually man and woman from 20 to 50 years old with interest in art and design.
+<b>Secondary</b>, there is another target group – the visitors to the exhibition. These are usually man and woman from 20 to 50 years old with interest in art and design.
 
 ![Persona](./images/design-s/persona.png)
 
