@@ -162,6 +162,10 @@ const Content = styled.main`
     padding-bottom: 10px;
   }
 
+  b {
+    font-weight: 400;
+  }
+
   ${BackLink} {
     display: block;
     text-align: center;
