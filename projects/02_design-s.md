@@ -60,9 +60,7 @@ The secondary target group (visitors) has less complex needs, and in this case, 
 
 ### Basic structure
 
-* to inform students about the event and motivate them to participate
-* to invite the public to vernissage and gala evening
-* to invite the public to the exhibition, inform about winners
+![Structure](./images/design-s/structure.jpg)
 
 ### User Flow with Blockframes
 
@@ -75,6 +73,9 @@ The secondary target group (visitors) has less complex needs, and in this case, 
 ## User Interface
 
 Moodboard, přehled barev a fontů, gif
+* to inform students about the event and motivate them to participate
+* to invite the public to vernissage and gala evening
+* to invite the public to the exhibition, inform about winners
 
 ![UI Design](./images/design-s/design-s_main2.png)
 
