@@ -22,12 +22,12 @@ background:
 
 ## Overview
 
-DESIGN.S is a biennial <b>international event which supports students of industrial and product design</b>. Every two years, they entirely change visuals to appear modern and attractive to young people.
+DESIGN.S is a biennial <b>international event (and design competition) which supports students of industrial and product design</b>. Every two years, they entirely change visuals to appear modern and attractive to young people.
 
 While their visuals use to be eye-catching and work well, their web was confusing, hard to read or scan, and overall didn't look appealing. So I decided to change it!
 
 ### Design Goals
-* encourage students to participate in the event
+* encourage students to participate in the competition
 * make it easy to find relevant information
 * inform and invite public
 * create an attractive visual identity
@@ -56,7 +56,10 @@ The main decisions I made thanks to this journey are:
 * the web will be <b>mobile-first</b>
 * the content on the homepage will be changing in time because the goal of the web is changing in time
 
+The secondary target group (visitors) has less complex needs, and in this case, it will be enough for them to find essential information such as what is it, where, when and how much is an entrance fee.
+
 ### Basic structure
+
 * to inform students about the event and motivate them to participate
 * to invite the public to vernissage and gala evening
 * to invite the public to the exhibition, inform about winners
