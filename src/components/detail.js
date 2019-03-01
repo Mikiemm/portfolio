@@ -144,7 +144,7 @@ const Content = styled.main`
     font-style: normal;
     font-stretch: normal;
     line-height: 1.59;
-    letter-spacing: 0.75px;
+    letter-spacing: 0.5px;
     margin: 0;
     padding: 10px 0 10px;
     color: ${colors.black};
