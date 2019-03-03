@@ -140,14 +140,14 @@ const Content = styled.main`
   p {
     font-family: Poppins, sans-serif;
     font-size: 17px;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.59;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.4px;
     margin: 0;
     padding: 10px 0 10px;
-    color: ${colors.black};
+    color: #555555;
   }
 
   ul {
