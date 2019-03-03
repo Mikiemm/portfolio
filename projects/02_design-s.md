@@ -58,7 +58,7 @@ The main decisions I made thanks to this journey are:
 
 The secondary target group (visitors) has less complex needs, and in this case, it will be enough for them to find essential information such as what is it, where, when and how much is an entrance fee.
 
-### Site map and User flow
+### Site Map and User Flow
 
 ![Structure](./images/design-s/structure.jpg)
 
