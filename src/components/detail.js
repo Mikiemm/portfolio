@@ -125,7 +125,6 @@ const Content = styled.main`
     font-stretch: normal;
     line-height: 1.35;
     letter-spacing: 0px;
-    text-transform: uppercase;
     margin: 0;
     padding: 20px 0 2px;
     color: ${colors.black};
