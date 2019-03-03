@@ -154,12 +154,16 @@ const Content = styled.main`
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
+    letter-spacing: 0.4px;
+    color: #555555;
   }
 
   ol {
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
+    letter-spacing: 0.4px;
+    color: #555555;
   }
 
   b {
