@@ -160,10 +160,6 @@ const Content = styled.main`
     color: #555555;
   }
 
-  li::before {
-    content: "–";
-  }
-
   b {
     font-weight: 500;
   }
