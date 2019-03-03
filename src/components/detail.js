@@ -76,7 +76,7 @@ const Content = styled.main`
   max-width: 700px;
   font-family: Poppins;
   font-size: 17px;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.59;
@@ -140,7 +140,7 @@ const Content = styled.main`
   p {
     font-family: Poppins, sans-serif;
     font-size: 17px;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.59;
@@ -163,7 +163,7 @@ const Content = styled.main`
   }
 
   b {
-    font-weight: 400;
+    font-weight: 500;
   }
 
   ${BackLink} {
