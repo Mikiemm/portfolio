@@ -151,6 +151,15 @@ const Content = styled.main`
     padding-top: 10px;
     padding-bottom: 10px;
     color: #555555;
+    list-style: none;
+    padding-left: 2.5em;
+  }
+
+  li::before {
+    content: "—";
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1.5em;
   }
 
   ol {
