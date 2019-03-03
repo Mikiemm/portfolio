@@ -74,20 +74,19 @@ const HeaderLink = styled.span`
 
 const Content = styled.main`
   max-width: 700px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 16px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.7;
   margin: 32px auto 0;
-  letter-spacing: 1px;
+  letter-spacing: 0.4px;
   color: ${colors.black};
 
   h1 {
     font-family: Poppins, sans-serif;
     text-transform: uppercase;
-    
     font-size: 45px;
     font-weight: bold;
     font-style: normal;
@@ -107,25 +106,25 @@ const Content = styled.main`
 
   h2 {
     font-family: Poppins, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 35px;
+    font-weight: 500;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.33;
-    letter-spacing: 1px;
+    letter-spacing: 0.1px;
     margin: 0;
     padding: 50px 0 10px;
     color: ${colors.black};
   }
 
   h3 {
-    font-family: 'Asap Condensed', sans-serif;
+    font-family: Poppins, sans-serif;
     font-size: 20px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.35;
-    letter-spacing: 1.5px;
+    letter-spacing: 0px;
     text-transform: uppercase;
     margin: 0;
     padding: 20px 0 2px;
@@ -143,8 +142,6 @@ const Content = styled.main`
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.7;
-    letter-spacing: 0.4px;
     margin: 0;
     padding: 10px 0 10px;
     color: #555555;
@@ -154,7 +151,6 @@ const Content = styled.main`
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    letter-spacing: 0.4px;
     color: #555555;
   }
 
@@ -162,7 +158,6 @@ const Content = styled.main`
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    letter-spacing: 0.4px;
     color: #555555;
   }
 
