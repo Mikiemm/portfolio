@@ -79,7 +79,7 @@ Moodboard, přehled barev a fontů, gif
 
 bbc
 
-<iframe width="1024" height="768" src="http://www.bbc.com" style="-webkit-transform:scale(0.5);-moz-transform-scale(0.5);"></iframe>
+<iframe width="1024" height="768" src="http://www.bbc.com" style="-webkit-transform:scale(0.5);-moz-transform-scale:(0.5);"></iframe>
 
 ![UI Design](./images/design-s/design-s_main2.png)
 
