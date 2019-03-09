@@ -173,6 +173,10 @@ const Content = styled.main`
     font-weight: 500;
   }
 
+  iframe {
+    margin: 0 auto;
+  }
+
   ${BackLink} {
     display: block;
     text-align: center;
