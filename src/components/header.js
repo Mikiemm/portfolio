@@ -107,8 +107,8 @@ export default () => (
         <Avatar fixed={file.childImageSharp.fixed} />
         <Name>{site.siteMetadata.title}</Name>
         <Description>{site.siteMetadata.description}</Description>
-        <Resume rel="noopener" href="https://drive.google.com/file/d/1IuJa6LFh5CsKL07eNf-TALMvDuyTzrAb/view" target="_blank">
-          Résumé with contacts
+        <Resume rel="noopener" href="https://drive.google.com/file/d/1zQK2E4NaCtnDyNjtvBUZJOOl5GEpgihD/view" target="_blank">
+          CV with contacts
           <svg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 13 13'>
               <g fill='none' fillRule='evenodd'>
                   <path d='M-1-1h15v15H-1z' />
