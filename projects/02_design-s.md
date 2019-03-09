@@ -75,7 +75,7 @@ Moodboard, přehled barev a fontů, gif
 * to invite the public to vernissage and gala evening
 * to invite the public to the exhibition, inform about winners
 
-<iframe width="476" height="1000" src="//invis.io/BVQOF9V4FM9" frameborder="0" style="-webkit-transform:scale(0.5);-moz-transform-scale:(0.5);" allowfullscreen></iframe>
+<iframe width="238" height="500" src="//invis.io/BVQOF9V4FM9" frameborder="0" style="-webkit-transform:scale(0.5);-moz-transform-scale:(0.5);" allowfullscreen></iframe>
 
 ![UI Design](./images/design-s/design-s_main2.png)
 
