@@ -75,8 +75,6 @@ Moodboard, přehled barev a fontů, gif
 * to invite the public to vernissage and gala evening
 * to invite the public to the exhibition, inform about winners
 
-<iframe width="1024" height="768" src="http://www.bbc.com" style="-webkit-transform:scale(0.5);-moz-transform-scale(0.5);"></iframe>
-
 ![UI Design](./images/design-s/design-s_main2.png)
 
 ![UI Design](./images/design-s/design-s_hf_3.png)
