@@ -174,8 +174,9 @@ const Content = styled.main`
   }
 
   iframe {
-    margin: 0 auto;
-    display: block;
+    position: fixed;
+    left: 50%; 
+    transform: translate(-50%, -50%);
   }
 
   ${BackLink} {
