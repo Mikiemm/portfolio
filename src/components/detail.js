@@ -177,6 +177,8 @@ const Content = styled.main`
     position: relative;
     left: 50%; 
     margin-left: -238px;
+    margin-top: -100px;
+    margin-bottom: -100px;
     -webkit-transform:scale(0.65);
     -moz-transform-scale:(0.65);
   }
