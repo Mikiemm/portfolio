@@ -175,6 +175,7 @@ const Content = styled.main`
 
   iframe {
     margin: 0 auto;
+    display: block;
   }
 
   ${BackLink} {
