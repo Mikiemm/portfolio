@@ -55,9 +55,12 @@ The main decisions I made thanks to this journey are:
 
 * the web will be <b>mobile-first</b>
 * the content on the homepage will be changing in time because the goal of the web is changing in time
-    * until March: to inform students about the event and motivate them to participate
-    * March to May: to invite the public to vernissage and gala evening
-    * from May: to invite the public to the exhibition, inform about winners
+
+And what are these goals?
+
+* until March: to inform students about the event and motivate them to participate
+* March to May: to invite the public to vernissage and gala evening
+* from May: to invite the public to the exhibition, inform about winners
 
 The secondary target group (visitors) has less complex needs, and in this case, it will be enough for them to find essential information such as what is it, where, when and how much is an entrance fee.
 
