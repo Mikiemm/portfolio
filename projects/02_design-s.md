@@ -58,17 +58,23 @@ The main decisions I made thanks to this journey are:
 
 And what are these goals?
 
-* <b>until March:</b> to inform students about the event and motivate them to participate
+* <b>until March:</b> to inform students about the event and motivate them to join
 * <b>March to May:</b> to invite the public to vernissage and gala evening
 * <b>from May:</b> to invite the public to the exhibition, inform about winners
 
 The secondary target group (visitors) has less complex needs, and in this case, it will be enough for them to find essential information such as what is it, where is it, when is it and how much is an entrance fee.
 
-### Site Map and User Flow
+### Sitemap
 
-From the current website and the user journey, I gathered all the information that should appear on the web. Then I put them in three categories – general info about the project, section for visitors and section for (potential) participants. I also chose when and which content will be displayed on the homepage based on the current goals of the website.
+From the current website and the user journey, I gathered all the information that should appear on the web. Then I put them in three categories – general info about the project, section for visitors and section for (potential) participants.
+
+I also chose when and which content will be displayed on the homepage based on the current goals of the website.
 
 ![Structure](./images/design-s/structure.jpg)
+
+### User Flow
+
+m
 
 <full-width color="#212224">
 
