@@ -60,7 +60,11 @@ The secondary target group (visitors) has less complex needs, and in this case, 
 
 ### Site Map and User Flow
 
-From the current website and the user journey, I gathered all the information that should appear on the web. Then I put them in proper and logical categories.
+From the current website and the user journey, I gathered all the information that should appear on the web. Then I put them in three categories – general info about the project, section for visitors and section for (potential) participants. I also chose when and which content will be displayed on the homepage based on the current goals of the website.
+
+* until March: to inform students about the event and motivate them to participate
+* March to May: to invite the public to vernissage and gala evening
+* from May: to invite the public to the exhibition, inform about winners
 
 ![Structure](./images/design-s/structure.jpg)
 
@@ -83,6 +87,6 @@ Moodboard, přehled barev a fontů, gif
 
 ## Prototype
 
-<iframe class="iframe_mobile" width="476" height="1000" src="//invis.io/BVQOF9V4FM9" frameborder="0"></iframe>
+<iframe class="iframe_mobile" width="476" height="900" src="//invis.io/BVQOF9V4FM9" frameborder="0"></iframe>
 
 ## Reflection
