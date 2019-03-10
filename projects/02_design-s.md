@@ -58,9 +58,9 @@ The main decisions I made thanks to this journey are:
 
 And what are these goals?
 
-* *until March:* to inform students about the event and motivate them to participate
-* *March to May:* to invite the public to vernissage and gala evening
-* *from May:* to invite the public to the exhibition, inform about winners
+* <b>until March:</b> to inform students about the event and motivate them to participate
+* <b>March to May:</b> to invite the public to vernissage and gala evening
+* <b>from May:</b> to invite the public to the exhibition, inform about winners
 
 The secondary target group (visitors) has less complex needs, and in this case, it will be enough for them to find essential information such as what is it, where is it, when is it and how much is an entrance fee.
 
@@ -79,9 +79,6 @@ From the current website and the user journey, I gathered all the information th
 ## User Interface
 
 Moodboard, přehled barev a fontů, gif
-* to inform students about the event and motivate them to participate
-* to invite the public to vernissage and gala evening
-* to invite the public to the exhibition, inform about winners
 
 ![UI Design](./images/design-s/design-s_main2.png)
 
