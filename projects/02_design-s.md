@@ -60,6 +60,8 @@ The secondary target group (visitors) has less complex needs, and in this case, 
 
 ### Site Map and User Flow
 
+From the current website and the user journey, I gathered all the information that should appear on the web. Then I put them in proper and logical categories.
+
 ![Structure](./images/design-s/structure.jpg)
 
 <full-width color="#212224">
