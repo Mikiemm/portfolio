@@ -74,7 +74,7 @@ I also chose when and which content will be displayed on the homepage based on t
 
 ### User Flow
 
-m
+With the help of sitemap, I designed a user flow showing how you can navigate through the web's content. In this phase, I already used simple blockframes and thought about the layout and position of various elements.
 
 <full-width color="#212224">
 
@@ -83,8 +83,6 @@ m
 </full-width>
 
 ## User Interface
-
-Moodboard, přehled barev a fontů, gif
 
 ![UI Design](./images/design-s/design-s_main2.png)
 
