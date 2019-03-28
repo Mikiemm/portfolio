@@ -98,6 +98,6 @@ The user interface was made after blockframes (which replaced wireframes in this
 
 ## Prototype
 
-You can see the main parts of the UI in the prototype below.
+You can see the main parts of the web in the prototype below.
 
 <iframe class="iframe_mobile" width="476" height="900" src="//invis.io/BVQOF9V4FM9" frameborder="0"></iframe>
