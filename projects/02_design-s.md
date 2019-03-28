@@ -84,6 +84,8 @@ With the help of sitemap, I designed a user flow showing how you can navigate th
 
 ## User Interface
 
+![Idea](./images/design-s/idea.png)
+
 ![UI Design](./images/design-s/design-s_main2.png)
 
 ![UI Design](./images/design-s/design-s_hf_3.png)
