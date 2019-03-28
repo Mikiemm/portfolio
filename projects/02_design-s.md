@@ -90,12 +90,14 @@ I wanted to show industrial design as a combination of technology and creativity
 
 ## User Interface
 
-The user interface was made after blockframes (which replaced wireframes in this case). You can see the main parts of the UI on the prototype below.
+The user interface was made after blockframes (which replaced wireframes in this case).
 
 ![UI Design](./images/design-s/design-s_main2.png)
 
 ![UI Design](./images/design-s/design-s_hf_3.png)
 
-### Prototype
+## Prototype
+
+You can see the main parts of the UI in the prototype below.
 
 <iframe class="iframe_mobile" width="476" height="900" src="//invis.io/BVQOF9V4FM9" frameborder="0"></iframe>
