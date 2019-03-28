@@ -82,16 +82,20 @@ With the help of sitemap, I designed a user flow showing how you can navigate th
 
 </full-width>
 
-## User Interface
+## Visuals
+
+I wanted to show industrial design as a combination of technology and creativity. That's why I decided to choose a technical monospaced font with splashes of paint.
 
 ![Idea](./images/design-s/idea.png)
+
+## User Interface
+
+The user interface was made after blockframes (which replaced wireframes in this case). You can see the main parts of the UI on the prototype below.
 
 ![UI Design](./images/design-s/design-s_main2.png)
 
 ![UI Design](./images/design-s/design-s_hf_3.png)
 
-## Prototype
+### Prototype
 
 <iframe class="iframe_mobile" width="476" height="900" src="//invis.io/BVQOF9V4FM9" frameborder="0"></iframe>
-
-## Reflection
