@@ -218,7 +218,7 @@ const Header = styled(Link)`
 `
 
 const Name = styled.p`
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
