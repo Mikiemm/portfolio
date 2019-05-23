@@ -35,9 +35,8 @@ const Name = styled.h1`
   font-stretch: normal;
   line-height: 1.33;
   font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;
   font-weight: 700;
-  letter-spacing: 4px;
+  letter-spacing: 1px;
   color: ${colors.black};
   word-spacing: 100vw;
   &:after {
