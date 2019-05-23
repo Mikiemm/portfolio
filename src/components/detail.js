@@ -106,12 +106,12 @@ const Content = styled.main`
 
   h2 {
     font-family: Poppins, sans-serif;
-    font-size: 35px;
+    font-size: 36px;
     font-weight: 700;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.33;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     margin: 0;
     padding: 50px 0 10px;
     color: ${colors.black};
@@ -228,6 +228,7 @@ const Name = styled.p`
   letter-spacing: 1px;
   color: ${colors.black};
   word-spacing: 100vw;
+  margin-bottom: 10px;
 `
 
 export default ({ htmlAst, next }) => (
