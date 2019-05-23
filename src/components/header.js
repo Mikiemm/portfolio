@@ -40,6 +40,7 @@ const Name = styled.h1`
   letter-spacing: 1px;
   color: ${colors.black};
   word-spacing: 100vw;
+  padding-right: 70px;
   &:after {
     display: block;
     content: "—";
