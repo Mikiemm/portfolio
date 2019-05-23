@@ -92,9 +92,9 @@ I wanted to show industrial design as a combination of technology and creativity
 
 The user interface was made after blockframes (which replaced wireframes in this case).
 
-![UI Design](./images/design-s/design-s_main2.png)
+![UI Design](./images/design-s/design-s_main2.jpg)
 
-![UI Design](./images/design-s/design-s_hf_3.png)
+![UI Design](./images/design-s/design-s_hf_3.jpg)
 
 ## Prototype
 
