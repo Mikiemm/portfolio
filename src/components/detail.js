@@ -87,7 +87,7 @@ const Content = styled.main`
   h1 {
     font-family: Poppins, sans-serif;
     text-transform: uppercase;
-    font-size: 45px;
+    font-size: 44px;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -106,7 +106,7 @@ const Content = styled.main`
 
   h2 {
     font-family: Poppins, sans-serif;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 700;
     font-style: normal;
     font-stretch: normal;
@@ -119,7 +119,7 @@ const Content = styled.main`
 
   h3 {
     font-family: Poppins, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
