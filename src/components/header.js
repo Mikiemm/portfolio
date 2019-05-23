@@ -52,7 +52,7 @@ const Description = styled.p`
   font-stretch: normal;
   line-height: 1.59;
   letter-spacing: 1px;
-  color: ${colors.black};
+  color: ${colors.grey};
   margin-top: -20px;
 `
 
