@@ -50,8 +50,8 @@ const Type = styled.h3`
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.59;
-  letter-spacing: 3.2px;
+  line-height: 1.6;
+  letter-spacing: 2px;
   margin: 0; padding: 0;
 `
 
