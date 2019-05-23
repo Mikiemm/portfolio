@@ -7,6 +7,7 @@ import Img from 'gatsby-image'
 const Avatar = styled(Img)`
   border-radius: 100%;
   flex-shrink: 0;
+  margin-left: -3px;
 `
 const Header = styled('main')`
   background: ${colors.bg};
