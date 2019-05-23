@@ -92,7 +92,7 @@ const Content = styled.main`
     font-style: normal;
     font-stretch: normal;
     line-height: 1.2em;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-align: center;
     color: ${colors.black};
 
@@ -107,11 +107,11 @@ const Content = styled.main`
   h2 {
     font-family: Poppins, sans-serif;
     font-size: 35px;
-    font-weight: 500;
+    font-weight: 700;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.33;
-    letter-spacing: 0.1px;
+    letter-spacing: 1px;
     margin: 0;
     padding: 50px 0 10px;
     color: ${colors.black};
@@ -124,7 +124,7 @@ const Content = styled.main`
     font-style: normal;
     font-stretch: normal;
     line-height: 1.35;
-    letter-spacing: 0px;
+    letter-spacing: 0.5px;
     margin: 0;
     padding: 20px 0 2px;
     color: ${colors.black};
@@ -218,7 +218,7 @@ const Header = styled(Link)`
 `
 
 const Name = styled.p`
-  font-size: 1em;
+  font-size: 16px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
