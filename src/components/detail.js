@@ -143,14 +143,14 @@ const Content = styled.main`
     font-stretch: normal;
     margin: 0;
     padding: 10px 0 10px;
-    color: #555555;
+    color: #757575;
   }
 
   ul {
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #555555;
+    color: #757575;
     list-style: none;
     padding-left: 2.5em;
   }
@@ -166,7 +166,7 @@ const Content = styled.main`
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #555555;
+    color: #757575;
   }
 
   b {
