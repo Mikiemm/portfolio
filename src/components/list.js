@@ -38,7 +38,7 @@ const Title = styled.h2`
   font-stretch: normal;
   text-decoration: none;
   line-height: 1.33;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   margin: 0;
   
   display: block;
