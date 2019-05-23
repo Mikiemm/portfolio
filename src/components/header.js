@@ -58,14 +58,14 @@ const Description = styled.p`
 
 const Resume = styled.a`
   font-family: 'Asap Condensed', sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.59;
+  line-height: 1.6;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   color: ${colors.grey};
   transition: color 0.3s;
   margin-bottom: 32px;
