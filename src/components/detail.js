@@ -34,12 +34,12 @@ const renderAst = new rehypeReact({
 
 const BackLink = styled(Link)`
   font-family: 'Asap Condensed', sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.59;
-  letter-spacing: 3px;
+  line-height: 1.6;
+  letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
   color: ${colors.grey};
@@ -52,12 +52,12 @@ const BackLink = styled(Link)`
 
 const HeaderLink = styled.span`
   font-family: 'Asap Condensed', sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.59;
-  letter-spacing: 3px;
+  line-height: 1.6;
+  letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
   color: ${colors.grey};
