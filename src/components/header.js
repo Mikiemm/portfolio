@@ -58,7 +58,7 @@ const Description = styled.p`
   margin-top: -20px;
 `
 
-const Resume = styled.a`
+const Link = styled.a`
   font-family: 'Asap Condensed', sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -70,9 +70,10 @@ const Resume = styled.a`
   letter-spacing: 2px;
   color: ${colors.grey};
   transition: color 0.3s;
-  margin-bottom: 32px;
   display: inline-flex;
   align-items: center;
+
+  margin-right: 1rem;
 
   & svg {
     margin-left: 3px;
@@ -81,6 +82,17 @@ const Resume = styled.a`
   &:hover {
     color: ${colors.black};
   }
+`
+
+const Links = styled.div`
+  margin-bottom: 32px;
+`
+
+const Remote = styled(Link)`
+  display: inline-block;
+`
+const Email = styled(Link)`
+  display: block;
 `
 
 export default () => (
@@ -108,16 +120,20 @@ export default () => (
         <Avatar fixed={file.childImageSharp.fixed} />
         <Name>{site.siteMetadata.title}</Name>
         <Description>{site.siteMetadata.description}</Description>
-        <Resume rel="noopener" href="https://drive.google.com/file/d/1zQK2E4NaCtnDyNjtvBUZJOOl5GEpgihD/view" target="_blank">
-          CV with contacts
-          <svg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 13 13'>
-              <g fill='none' fillRule='evenodd'>
-                  <path d='M-1-1h15v15H-1z' />
-                  <path fill='currentColor' fillRule='nonzero' d='M10.875 10.875h-8.75v-8.75H6.5V.875H.875v11.25h11.25V6.5h-1.25v4.375zM7.75.875v1.25h2.244L3.85 8.269l.881.881 6.144-6.144V5.25h1.25V.875H7.75z'
-                  />
-              </g>
-          </svg>
-        </Resume>
+        <Links>
+          <Remote rel="noopener" href="https://dribbble.com/svidma" target="_blank">
+            Dribbble
+          </Remote>
+          <Remote rel="noopener" href="https://www.linkedin.com/in/svidma/" target="_blank">
+            LinkedIn
+          </Remote>
+          <Remote rel="noopener" href="https://drive.google.com/file/d/1zQK2E4NaCtnDyNjtvBUZJOOl5GEpgihD/view" target="_blank">
+            Resume
+          </Remote>
+          <Email rel="noopener" href="mailto:svid.marketa@gmail.com" target="_blank">
+            svid.marketa@gmail.com
+          </Email>
+        </Links>
       </Header>
     )}}
   />
