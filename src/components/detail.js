@@ -223,7 +223,7 @@ const Name = styled.p`
   line-height: 1.33;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   color: ${colors.black};
   word-spacing: 100vw;
   margin-bottom: 10px;
