@@ -45,7 +45,7 @@ const Title = styled.h2`
 `
 
 const Type = styled.h3`
-  font-family: 'Asap Condensed', sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 15px;
   font-weight: 500;
   font-style: normal;
