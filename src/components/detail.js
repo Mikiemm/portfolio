@@ -33,7 +33,7 @@ const renderAst = new rehypeReact({
 }).Compiler
 
 const BackLink = styled(Link)`
-  font-family: 'Asap Condensed', sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 15px;
   font-weight: 500;
   font-style: normal;
@@ -51,7 +51,7 @@ const BackLink = styled(Link)`
 `
 
 const HeaderLink = styled.span`
-  font-family: 'Asap Condensed', sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 15px;
   font-weight: 500;
   font-style: normal;
