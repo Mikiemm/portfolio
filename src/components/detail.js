@@ -141,6 +141,7 @@ const Content = styled.main`
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
+    letter-spacing: 0.1px;
     margin: 0;
     padding: 10px 0 10px;
     color: ${colors.grey};
@@ -153,6 +154,7 @@ const Content = styled.main`
     color: ${colors.grey};
     list-style: none;
     padding-left: 2.5em;
+    letter-spacing: 0.1px;
   }
 
   li::before {
@@ -167,6 +169,7 @@ const Content = styled.main`
     padding-top: 10px;
     padding-bottom: 10px;
     color: #757575;
+    letter-spacing: 0.1px;
   }
 
   b {
