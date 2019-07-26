@@ -73,7 +73,7 @@ const HeaderLink = styled.span`
 `
 
 const Content = styled.main`
-  max-width: 700px;
+  max-width: 600px;
   font-family: Poppins, sans-serif;
   font-size: 16px;
   font-weight: 300;
