@@ -111,7 +111,7 @@ const Content = styled.main`
     font-style: normal;
     font-stretch: normal;
     line-height: 1.33;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.1px;
     margin: 0;
     padding: 50px 0 10px;
     color: ${colors.black};
