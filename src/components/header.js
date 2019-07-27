@@ -48,7 +48,8 @@ const Name = styled.h1`
 `
 
 const Description = styled.p`
-  font-size: 17px;
+  font-family: Poppins, sans-serif;  
+  font-size: 16px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
