@@ -31,7 +31,7 @@ const ImageContainer = styled.div`
 `
 
 const Title = styled.h2`
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 30px;
   font-weight: bold;
   font-style: normal;
