@@ -102,7 +102,7 @@ export default () => (
       query {
         file(relativePath: { eq: "images/profile.jpg" }) {
           childImageSharp {
-            fixed(width: 97) {
+            fixed(width: 97, quality: 100) {
               ...GatsbyImageSharpFixed_noBase64
             }
           }
