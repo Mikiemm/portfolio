@@ -14,7 +14,7 @@ background:
 
 # Biennial of Student Design: DESIGN.S
 
-<full-width color="#dddddd">
+<full-width color="#f3f6f7">
 
   ![Header](./images/design-s/design-s_header.jpg)
 
