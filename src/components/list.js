@@ -161,7 +161,10 @@ export default () => (
                         src
                       }
                       fluid(quality: 95, srcSetBreakpoints: [200, 400, 600, 800], maxWidth: 9999999) {
-                        ...GatsbyImageSharpFluid_noBase64
+                        aspectRatio
+                        src
+                        srcSet
+                        sizes
                       }
                     }
                   }
@@ -175,7 +178,11 @@ export default () => (
                         src
                       }
                       fluid(quality: 95, srcSetBreakpoints: [200, 400, 600, 800], maxWidth: 9999999) {
-                        ...GatsbyImageSharpFluid
+                        base64
+                        aspectRatio
+                        src
+                        srcSet
+                        sizes
                       }
                     }
                   }
