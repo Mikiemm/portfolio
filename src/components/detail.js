@@ -43,8 +43,8 @@ export default ({ htmlAst, next }) => {
           { renderAst(htmlAst) }
           { (!next || next.length === 0) && <BackLink to="/">Show all projects</BackLink> }
         </Content>
-        <Next next={next} />
       </Detail>
+      <Next next={next} />
     </NoHorizontalScroll>
   )
 }

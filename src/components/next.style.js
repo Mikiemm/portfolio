@@ -3,12 +3,17 @@ import Img from 'gatsby-image';
 import { Link } from 'gatsby';
 import { colors } from './theme';
 
+export const Wrapper = styled.div`
+  margin-top: 4em;
+  padding: 4em 0;
+  background: ${colors.lightgrey};
+`
 export const Content = styled.div`
+  max-width: 800px;
+  width: calc(100% - 4em);
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  
-  margin: 2em auto;
-  max-width: 800px;
 `;
 
 export const AllProjectsLink = styled(Link)`
@@ -51,8 +56,7 @@ export const Header = styled.h2`
 export const Projects = styled.div`
   display: grid;
   grid-template: 1fr / 1fr 1fr 1fr;
-  grid-gap: 1em;
-  margin: 1em 0;
+  margin: 3em 0;
 
   @media (max-width: 800px) {
     grid-template-columns: 1fr;
