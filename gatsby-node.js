@@ -3,17 +3,17 @@ const path = require("path")
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
-  const template = path.resolve(`src/templates/projectTemplate.js`)
+  const template = path.resolve(`src/pages/projects.js`)
 
   return graphql(`
   {
     allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/projects/" } }) {
       edges {
         node {
+          id
           frontmatter {
             title
             path
-            textColor
             cover {
               url
               image {
@@ -24,24 +24,6 @@ exports.createPages = ({ actions, graphql }) => {
                     src
                   }
                   fluid(quality: 95, srcSetBreakpoints: [200, 400, 600, 800], maxWidth: 9999999) {
-                    aspectRatio
-                    src
-                    srcSet
-                    sizes
-                  }
-                }
-              }
-            }
-            background {
-              url
-              color
-              image {
-                childImageSharp {
-                  original {
-                    src
-                  }
-                  fluid(quality: 95, srcSetBreakpoints: [200, 400, 600, 800], maxWidth: 9999999) {
-                    base64
                     aspectRatio
                     src
                     srcSet
