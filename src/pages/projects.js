@@ -8,7 +8,9 @@ export default function Template({
   pageContext: { next },
 }) {
   const { markdownRemark, site: { siteMetadata } } = data 
-  const { frontmatter, htmlAst, excerpt } = markdownRemark
+  if (!markdownRemark) return null
+
+  const { frontmatter, htmlAst, excerpt } = markdownRemark || {}
   return (
     <Layout
       title={`${frontmatter.title} | ${siteMetadata.title}`}
