@@ -2,7 +2,7 @@ import React from 'react'
 import { Item, Background, ImgSharp, ImgUrl, Title, Header, Content, Projects, AllProjectsLink } from './next.style'
 
 export default ({ next }) => {
-  if (!next && next.length === 0) return null
+  if (!next || next.length === 0) return null
   return (
     <Content>
       <Header>Next projects</Header>
