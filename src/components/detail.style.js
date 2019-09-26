@@ -88,7 +88,7 @@ export const Content = styled.main`
     color: ${colors.black};
 
     &:after {
-      margin: .3em 0 0;
+      margin: 0em 0 0;
       display: block;
       content: "—";
       line-height: 0.89em;
@@ -194,7 +194,7 @@ export const Header = styled(Link)`
   font-size: 1em;
   margin-right: 72px;
   margin-left: 72px;
-  margin-top: 40px;
+  margin-top: 80px;
   margin-bottom: 0;
   display: block;
   text-decoration: none;
