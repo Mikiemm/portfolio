@@ -181,7 +181,7 @@ export const Content = styled.main`
 export const Detail = styled.div`
   max-width: 1200px;
   width: calc(100% - 4em);
-  margin: 64px auto 32px;
+  margin: 60px auto 32px;
 
   @media (max-width: 800px) {
     margin-top: 2em;
@@ -192,7 +192,9 @@ export const NoHorizontalScroll = styled.div`
 `;
 export const Header = styled(Link)`
   font-size: 1em;
-  margin: 72px;
+  margin-right: 72px;
+  margin-left: 72px;
+  margin-top: 40px;
   margin-bottom: 0;
   display: block;
   text-decoration: none;
