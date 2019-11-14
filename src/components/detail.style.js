@@ -122,7 +122,8 @@ export const Content = styled.main`
   }
 
   h4 {
-    margin-bottom: 0;
+    margin-top: 15px;
+    margin-bottom: -5px;
   }
 
   img {
