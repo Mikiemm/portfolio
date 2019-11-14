@@ -108,7 +108,7 @@ export const Content = styled.main`
     color: ${colors.black};
 
     &:after {
-      margin: 0em 0 0;
+      margin: -8px 0 0 0;
       display: block;
       content: "⸺";
       line-height: 0.8em;
