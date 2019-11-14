@@ -90,7 +90,7 @@ export const Content = styled.main`
     &:after {
       margin: 0em 0 0;
       display: block;
-      content: "—";
+      content: "⸺";
       line-height: 0.89em;
     }
   }
@@ -107,10 +107,10 @@ export const Content = styled.main`
     padding: 50px 0 10px;
     color: ${colors.black};
 
-    &:before {
+    &:after {
       margin: 0em 0 0;
       display: block;
-      content: "—";
+      content: "⸺";
       line-height: 0.8em;
     }
   }
