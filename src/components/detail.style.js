@@ -200,6 +200,7 @@ export const Content = styled.main`
     max-width: 720px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 20px;
     padding-bottom: 50px;
     width: calc(100% - 4em);
   }
