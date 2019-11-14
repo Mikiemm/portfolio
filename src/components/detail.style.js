@@ -106,6 +106,13 @@ export const Content = styled.main`
     margin: 0;
     padding: 50px 0 10px;
     color: ${colors.black};
+
+    &:after {
+      margin: 0em 0 0;
+      display: block;
+      content: "—";
+      line-height: 0.8em;
+    }
   }
 
   h3 {
