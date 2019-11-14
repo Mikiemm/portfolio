@@ -107,7 +107,7 @@ export const Content = styled.main`
     padding: 50px 0 10px;
     color: ${colors.black};
 
-    &:after {
+    &:before {
       margin: 0em 0 0;
       display: block;
       content: "—";
