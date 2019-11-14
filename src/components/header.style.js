@@ -42,7 +42,9 @@ export const Name = styled.h1`
   padding-right: 70px;
   &:after {
     display: block;
-    content: "—";
+    content: "⸺";
+    margin-top: –4px;
+    margin-bottom: 9px;
   }
 `
 
