@@ -121,6 +121,10 @@ export const Content = styled.main`
     color: ${colors.black};
   }
 
+  h4 {
+    margin-bottom: 0;
+  }
+
   img {
     max-width: 100%;
     box-shadow: none !important;
@@ -175,6 +179,7 @@ export const Content = styled.main`
   .column {
     float: left;
     width: 33.33%;
+    padding-right: 5px;
   }
 
   .row:after {
