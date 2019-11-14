@@ -179,7 +179,7 @@ export const Content = styled.main`
   .column {
     float: left;
     width: 33.33%;
-    padding-right: 5px;
+    padding-right: 15px;
   }
 
   .row:after {
