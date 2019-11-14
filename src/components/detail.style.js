@@ -196,6 +196,14 @@ export const Content = styled.main`
     clear: both;
   }
 
+  .inside_bg {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    width: calc(100% - 4em);
+  }
+
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;
