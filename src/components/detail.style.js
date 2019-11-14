@@ -172,6 +172,25 @@ export const Content = styled.main`
     display: block;
   }
 
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
   ${BackLink} {
     display: block;
     text-align: center;
