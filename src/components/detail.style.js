@@ -124,7 +124,7 @@ export const Content = styled.main`
     line-height: 1.35;
     letter-spacing: 0.5px;
     margin: 0;
-    padding: 20px 0 2px;
+    padding: 20px 0 10px;
     color: ${colors.black};
   }
 
@@ -184,9 +184,15 @@ export const Content = styled.main`
     display: block;
   }
 
-  .column {
+  .column_3 {
     float: left;
     width: 33.33%;
+    padding-right: 15px;
+  }
+
+  .column_2 {
+    float: left;
+    width: 50%;
     padding-right: 15px;
   }
 
@@ -194,6 +200,11 @@ export const Content = styled.main`
     content: "";
     display: table;
     clear: both;
+  }
+
+  .table {
+    margin-top: 50px;
+    margin-bottom: 30px;
   }
 
   .inside_bg {
