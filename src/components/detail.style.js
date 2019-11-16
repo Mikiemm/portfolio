@@ -153,8 +153,8 @@ export const Content = styled.main`
 
   ul {
     margin: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     color: ${colors.grey};
     list-style: none;
     padding-left: 2.5em;
