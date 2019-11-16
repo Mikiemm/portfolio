@@ -161,10 +161,6 @@ export const Content = styled.main`
     letter-spacing: 0.1px;
   }
 
-  li {
-    margin-bottom: 10px;
-  }
-
   li::before {
     content: "—";
     display: inline-block;
