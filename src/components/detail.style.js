@@ -197,6 +197,12 @@ export const Content = styled.main`
     padding-right: 40px;
   }
 
+  .column_59 {
+    float: left;
+    width: 59%;
+    padding-right: 40px;
+  }
+
   .row:after {
     content: "";
     display: table;
@@ -223,6 +229,10 @@ export const Content = styled.main`
     }
 
     .column_3 {
+      width: 100%;
+    }
+
+    .column_59 {
       width: 100%;
     }
   }
