@@ -193,18 +193,19 @@ export const Content = styled.main`
   .column_2 {
     float: left;
     width: 50%;
-    padding-right: 15px;
+    padding-right: 40px;
   }
 
   .row:after {
     content: "";
     display: table;
     clear: both;
+    margin-bottom: 40px;
   }
 
   .table {
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
   }
 
   .inside_bg {
@@ -217,7 +218,11 @@ export const Content = styled.main`
   }
 
   @media screen and (max-width: 600px) {
-    .column {
+    .column_2 {
+      width: 100%;
+    }
+
+    .column_3 {
       width: 100%;
     }
   }
