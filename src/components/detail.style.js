@@ -131,6 +131,7 @@ export const Content = styled.main`
   h4 {
     margin-top: 15px;
     margin-bottom: -5px;
+    color: ${colors.grey};
   }
 
   img {
@@ -200,7 +201,6 @@ export const Content = styled.main`
     content: "";
     display: table;
     clear: both;
-    margin-bottom: 40px;
   }
 
   .table {
