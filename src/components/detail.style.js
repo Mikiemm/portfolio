@@ -161,6 +161,10 @@ export const Content = styled.main`
     letter-spacing: 0.1px;
   }
 
+  li {
+    margin-bottom: 10px;
+  }
+
   li::before {
     content: "—";
     display: inline-block;
@@ -213,7 +217,7 @@ export const Content = styled.main`
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     width: calc(100% - 4em);
   }
 
