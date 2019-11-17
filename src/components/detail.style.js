@@ -18,7 +18,7 @@ export const FullWidth = styled.span`
 
   & p {
     margin: 0;
-    padding: 0;
+    padding: 0 !important;
   }
 `;
 export const BackLink = styled(Link)`
@@ -88,10 +88,12 @@ export const Content = styled.main`
     color: ${colors.black};
 
     &:after {
-      margin: 0em 0 0;
       display: block;
-      content: "⸺";
-      line-height: 0.89em;
+      content: "";
+      width: 2em;
+      height: 3px;
+      background: currentColor;
+      margin: 0.6em auto;
     }
   }
 
@@ -108,10 +110,12 @@ export const Content = styled.main`
     color: ${colors.black};
 
     &:after {
-      margin: -8px 0 0 0;
       display: block;
-      content: "⸺";
-      line-height: 0.8em;
+      content: "";
+      width: 2em;
+      height: 3px;
+      background: currentColor;
+      margin: 0.5em 0;
     }
   }
 

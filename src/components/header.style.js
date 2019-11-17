@@ -18,6 +18,14 @@ export const Header = styled('main')`
 
   top: 0;
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+
+  @media (max-width: 1024px) {
+    position: static;
+    height: auto;
+    max-height: 80vh;
+    padding: 144px 50px 50px;
+  }
 
   @media (max-width: 800px) {
     position: static;
@@ -42,9 +50,11 @@ export const Name = styled.h1`
   padding-right: 70px;
   &:after {
     display: block;
-    content: "⸺";
-    margin-top: –4px;
-    margin-bottom: 9px;
+    content: "";
+    width: 2em;
+    height: 2px;
+    background: currentColor;
+    margin: 0.8em 0;
   }
 `
 
