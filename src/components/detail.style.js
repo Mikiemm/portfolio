@@ -136,6 +136,7 @@ export const Content = styled.main`
     margin-top: 15px;
     margin-bottom: -5px;
     color: ${colors.grey};
+    font-weight: 900;
   }
 
   img {
@@ -181,7 +182,7 @@ export const Content = styled.main`
   }
 
   b {
-    font-weight: 500;
+    font-weight: 700;
   }
 
   .iframe_mobile {
