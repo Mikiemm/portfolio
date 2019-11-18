@@ -42,8 +42,8 @@ export const Name = styled.h1`
   font-style: normal;
   font-stretch: normal;
   line-height: 1.33;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
+  font-family: 'museo-sans', sans-serif;
+  font-weight: 900;
   letter-spacing: 1px;
   color: ${colors.black};
   word-spacing: 100vw;
@@ -59,8 +59,8 @@ export const Name = styled.h1`
 `
 
 export const Description = styled.p`
-  font-family: Poppins, sans-serif;  
-  font-size: 16px;
+  font-family: museo-sans, sans-serif;  
+  font-size: 18px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -71,9 +71,9 @@ export const Description = styled.p`
 `
 
 const Link = styled.a`
-  font-family: Poppins, sans-serif;
+  font-family: museo-sans, sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.6;
