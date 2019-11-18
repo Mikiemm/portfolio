@@ -22,9 +22,9 @@ export const FullWidth = styled.span`
   }
 `;
 export const BackLink = styled(Link)`
-  font-family: Poppins, sans-serif;
+  font-family: museo-sans, sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.6;
@@ -43,9 +43,9 @@ export const BackLink = styled(Link)`
   }
 `;
 export const HeaderLink = styled.span`
-  font-family: Poppins, sans-serif;
+  font-family: museo-sans, sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.6;
@@ -65,7 +65,7 @@ export const HeaderLink = styled.span`
 `;
 export const Content = styled.main`
   max-width: 720px;
-  font-family: Poppins, sans-serif;
+  font-family: museo-sans, sans-serif;
   font-size: 16px;
   font-weight: 300;
   font-style: normal;
@@ -76,10 +76,10 @@ export const Content = styled.main`
   color: ${colors.black};
 
   h1 {
-    font-family: Poppins, sans-serif;
+    font-family: museo-sans, sans-serif;
     text-transform: uppercase;
     font-size: 44px;
-    font-weight: bold;
+    font-weight: 900;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.2em;
@@ -98,9 +98,9 @@ export const Content = styled.main`
   }
 
   h2 {
-    font-family: Poppins, sans-serif;
+    font-family: museo-sans, sans-serif;
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 900;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.33;
@@ -120,9 +120,9 @@ export const Content = styled.main`
   }
 
   h3 {
-    font-family: Poppins, sans-serif;
+    font-family: museo-sans, sans-serif;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 700;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.35;
@@ -144,8 +144,8 @@ export const Content = styled.main`
   }
 
   p {
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
+    font-family: museo-sans, sans-serif;
+    font-size: 18px;
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
@@ -279,8 +279,8 @@ export const Name = styled.p`
   font-style: normal;
   font-stretch: normal;
   line-height: 1.33;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
+  font-family: 'museo-sans', sans-serif;
+  font-weight: 900;
   letter-spacing: 0.5px;
   color: ${colors.black};
   word-spacing: 100vw;
