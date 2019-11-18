@@ -54,7 +54,7 @@ export const Name = styled.h1`
     width: 2em;
     height: 2px;
     background: currentColor;
-    margin: 0.8em 0;
+    margin: 0.6em 0 0.8em;
   }
 `
 
