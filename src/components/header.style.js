@@ -47,7 +47,7 @@ export const Name = styled.h1`
   letter-spacing: 1px;
   color: ${colors.black};
   word-spacing: 100vw;
-  padding-right: 70px;
+  padding-right: 100px;
   &:after {
     display: block;
     content: "";
