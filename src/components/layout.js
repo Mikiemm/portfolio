@@ -65,7 +65,7 @@ font-display:auto;font-style:italic;font-weight:900;
 }
 
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-family: "museo-sans","Poppins",sans-serif;
   margin: 0;
   padding: 0;
   background-color: ${colors.bg};
