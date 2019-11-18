@@ -137,7 +137,8 @@ export const Content = styled.main`
     margin-bottom: -5px;
     color: ${colors.grey};
     font-weight: 900;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
+    font-size: 18px;
   }
 
   img {
