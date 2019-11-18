@@ -44,10 +44,10 @@ export const Name = styled.h1`
   line-height: 1.33;
   font-family: 'museo-sans', sans-serif;
   font-weight: 900;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   color: ${colors.black};
   word-spacing: 100vw;
-  padding-right: 100px;
+  padding-right: 105px;
   &:after {
     display: block;
     content: "";
