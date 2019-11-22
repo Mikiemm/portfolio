@@ -6,7 +6,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       query {
-        file(relativePath: { eq: "images/profile.jpg" }) {
+        file(relativePath: { eq: "images/header/profile.jpg" }) {
           childImageSharp {
             fixed(width: 97, quality: 100) {
               ...GatsbyImageSharpFixed_noBase64
