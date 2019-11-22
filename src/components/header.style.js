@@ -45,7 +45,7 @@ export const Name = styled.h1`
   font-family: 'museo-sans', sans-serif;
   font-weight: 900;
   letter-spacing: 0.5px;
-  color: ${colors.black};
+  color: ${colors.grey};
   word-spacing: 100vw;
   padding-right: 105px;
   &:after {
