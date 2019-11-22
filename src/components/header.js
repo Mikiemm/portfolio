@@ -28,6 +28,9 @@ export default () => (
         <Name>{site.siteMetadata.title}</Name>
         <Description>{site.siteMetadata.description}</Description>
         <Links>
+          <Remote rel="noopener" href="./project/iw" target="_blank">
+            About me
+          </Remote>
           <Remote rel="noopener" href="https://dribbble.com/marketa" target="_blank">
             Dribbble
           </Remote>
@@ -37,9 +40,6 @@ export default () => (
           <Remote rel="noopener" href="https://drive.google.com/file/d/1zQK2E4NaCtnDyNjtvBUZJOOl5GEpgihD/view" target="_blank">
             Resume
           </Remote>
-          <Email rel="noopener" href="mailto:svid.marketa@gmail.com" target="_blank">
-            svid.marketa@gmail.com
-          </Email>
         </Links>
       </Header>
     )}}
