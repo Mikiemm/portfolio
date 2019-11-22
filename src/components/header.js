@@ -35,10 +35,10 @@ export default () => (
             Resume
           </Remote>
           <Remote rel="noopener" href="https://dribbble.com/marketa" target="_blank">
-             <img src=".images/header/icn_dribbble.svg" alt="Dribbble">
+             <img src="images/header/icn_dribbble.svg" alt="Dribbble">
           </Remote>
           <Remote rel="noopener" href="https://www.linkedin.com/in/marketa-svid" target="_blank">
-             <img src=".images/header/icn_linkedin.svg" alt="LinkedIn">
+             <img src="images/header/icn_linkedin.svg" alt="LinkedIn">
           </Remote>
         </Links>
       </Header>
