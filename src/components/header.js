@@ -31,12 +31,14 @@ export default () => (
           <Remote rel="noopener" href="./project/iw" target="_blank">
             About me
           </Remote>
+          <p>|</p>
           <Remote rel="noopener" href="https://dribbble.com/marketa" target="_blank">
             Dribbble
           </Remote>
           <Remote rel="noopener" href="https://www.linkedin.com/in/marketa-svid" target="_blank">
             LinkedIn
           </Remote>
+          <p>|</p>
           <Remote rel="noopener" href="https://drive.google.com/file/d/1zQK2E4NaCtnDyNjtvBUZJOOl5GEpgihD/view" target="_blank">
             Resume
           </Remote>
