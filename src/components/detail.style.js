@@ -135,9 +135,9 @@ export const Content = styled.main`
   h4 {
     margin-top: 15px;
     margin-bottom: -5px;
-    color: ${colors.grey};
-    font-weight: 900;
-    letter-spacing: 0.3px;
+    color: ${colors.black};
+    font-weight: 500;
+    letter-spacing: 0px;
     font-size: 18px;
   }
 
