@@ -85,10 +85,9 @@ const Link = styled.a`
   display: inline-flex;
   align-items: center;
 
-  margin-right: 1rem;
+  margin-right: 1.2rem;
 
   & svg {
-    margin-left: 3px;
   }
   
   &:hover {
