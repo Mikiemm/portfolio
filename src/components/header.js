@@ -36,6 +36,11 @@ export default () => (
           </Remote>
           <Remote rel="noopener" href="https://dribbble.com/marketa" target="_blank">
             <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'>
+              <g fill='none' fillRule='evenodd'>
+                <path d='M-1-1h15v15H-1z' />
+                <path fill='currentColor' fillRule='nonzero' d='M10.875 10.875h-8.75v-8.75H6.5V.875H.875v11.25h11.25V6.5h-1.25v4.375zM7.75.875v1.25h2.244L3.85 8.269l.881.881 6.144-6.144V5.25h1.25V.875H7.75z'
+                />
+              </g>
             </svg>
           </Remote>
           <Remote rel="noopener" href="https://www.linkedin.com/in/marketa-svid" target="_blank">
