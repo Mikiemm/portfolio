@@ -88,6 +88,7 @@ const Link = styled.a`
   margin-right: 1.2rem;
 
   & svg {
+    vertical-align: text-bottom;
   }
   
   &:hover {
