@@ -28,9 +28,6 @@ export default () => (
         <Name>{site.siteMetadata.title}</Name>
         <Description>{site.siteMetadata.description}</Description>
         <Links>
-          <Remote rel="noopener" href="./project/iw" target="_blank">
-            About me
-          </Remote>
           <Remote rel="noopener" href="https://drive.google.com/file/d/14Cb0kLUupbOthtBenF5hHTwp8hJnRU_n/view" target="_blank">
             Resume
           </Remote>
