@@ -136,7 +136,7 @@ export const Content = styled.main`
     margin-top: 15px;
     margin-bottom: -5px;
     color: ${colors.black};
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 0px;
     font-size: 18px;
   }
