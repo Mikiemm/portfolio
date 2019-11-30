@@ -187,11 +187,6 @@ export const Content = styled.main`
     font-weight: 700;
   }
 
-  .iframe_mobile {
-    margin: 0 auto;
-    display: block;
-  }
-
   .column_3 {
     float: left;
     width: 33.33%;
@@ -234,6 +229,23 @@ export const Content = styled.main`
     padding-bottom: 20px;
     width: calc(100% - 4em);
   }
+
+  .inside_bg_inverted {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: calc(100% - 4em);
+  }
+
+.inside_bg_inverted h2, h3, h4 {
+    color: white;
+}
+
+.inside_bg_inverted p {
+    color: #eeeeee;
+}
 
   @media screen and (max-width: 600px) {
     .column_2 {
