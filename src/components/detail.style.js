@@ -204,9 +204,9 @@ export const Content = styled.main`
     padding-right: 40px;
   }
 
-  .column_57 {
+  .column_15 {
     float: left;
-    width: 57%;
+    width: 15%;
     padding-right: 40px;
   }
 
@@ -239,8 +239,8 @@ export const Content = styled.main`
       width: 100%;
     }
 
-    .column_57 {
-      width: 100%;
+    .column_15 {
+      width: 15%;
     }
   }
 
