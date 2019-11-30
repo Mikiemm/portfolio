@@ -239,11 +239,11 @@ export const Content = styled.main`
     width: calc(100% - 4em);
   }
 
-h2, h3, h4.inside_bg_inverted {
+.inside_bg_inverted h2,h3,h4 {
     color: white;
 }
 
-p.inside_bg_inverted {
+.inside_bg_inverted p {
     color: #eeeeee;
 }
 
