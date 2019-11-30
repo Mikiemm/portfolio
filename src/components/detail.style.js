@@ -239,13 +239,21 @@ export const Content = styled.main`
     width: calc(100% - 4em);
   }
 
-.inside_bg_inverted h2,h3,h4 {
-    color: white;
-}
+  .inside_bg_inverted h2 {
+      color: white;
+  }
 
-.inside_bg_inverted p {
-    color: #eeeeee;
-}
+  .inside_bg_inverted h3 {
+      color: white;
+  }
+
+  .inside_bg_inverted h4 {
+      color: white;
+  }
+
+  .inside_bg_inverted p {
+      color: #eeeeee;
+  }
 
   @media screen and (max-width: 600px) {
     .column_2 {
