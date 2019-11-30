@@ -240,7 +240,7 @@ export const Content = styled.main`
     }
 
     .column_15 {
-      width: 15%;
+      width: 35%;
     }
   }
 
