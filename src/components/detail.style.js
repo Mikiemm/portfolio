@@ -210,7 +210,7 @@ export const Content = styled.main`
     padding-right: 40px;
   }
 
-  .column_15 {
+  .column_85 {
     float: left;
     width: 85%;
   }
