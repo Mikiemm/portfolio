@@ -255,12 +255,13 @@ export const Content = styled.main`
       color: #eeeeee;
   }
 
-  #container {
-  width:  100%;
-  height: 300px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+   #container {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F2F2F2;
   }
 
   @media screen and (max-width: 600px) {
