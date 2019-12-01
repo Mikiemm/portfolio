@@ -257,9 +257,9 @@ export const Content = styled.main`
 
    #container {
     width: 100%;
-    height: 300px;
+    height: 400px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-color: #F7FAFB;
   }
