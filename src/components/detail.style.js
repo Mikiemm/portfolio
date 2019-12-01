@@ -252,7 +252,7 @@ export const Content = styled.main`
   }
 
   .inside_bg_inverted p {
-      color: #eeeeee;
+      color: #d0d0d0;
   }
 
    #container {
