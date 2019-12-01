@@ -255,6 +255,14 @@ export const Content = styled.main`
       color: #eeeeee;
   }
 
+  #container {
+  width:  100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+
   @media screen and (max-width: 600px) {
     .column_2 {
       width: 100%;
