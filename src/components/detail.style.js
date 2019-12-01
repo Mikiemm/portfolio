@@ -257,7 +257,7 @@ export const Content = styled.main`
 
   #container {
   width:  100%;
-  height: auto;
+  height: 300px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
