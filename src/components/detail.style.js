@@ -261,7 +261,7 @@ export const Content = styled.main`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #F2F2F2;
+    background-color: #F7FAFB;
   }
 
   @media screen and (max-width: 600px) {
