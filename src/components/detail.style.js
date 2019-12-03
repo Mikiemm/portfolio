@@ -106,7 +106,7 @@ export const Content = styled.main`
     line-height: 1.33;
     letter-spacing: 0.1px;
     margin: 0;
-    padding: 50px 0 10px;
+    padding: 80px 0 10px;
     color: ${colors.black};
 
     &:after {
