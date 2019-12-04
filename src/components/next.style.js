@@ -17,9 +17,9 @@ export const Content = styled.div`
 `;
 
 export const AllProjectsLink = styled(Link)`
-  font-family: Poppins, sans-serif;
+  font-family: museo-sans, sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.6;
@@ -46,8 +46,8 @@ export const Header = styled.h2`
   font-style: normal;
   font-stretch: normal;
   line-height: 1.33;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
+  font-family: 'museo-sans', sans-serif;
+  font-weight: 900;
   letter-spacing: 0.5px;
   margin: 0;
   color: ${colors.black};
@@ -64,9 +64,9 @@ export const Projects = styled.div`
 `;
 
 export const Title = styled.h3`
-  font-family: 'Poppins', sans-serif;
+  font-family: 'museo-sans', sans-serif;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 900;
   font-style: normal;
   font-stretch: normal;
   text-decoration: none;

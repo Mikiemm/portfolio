@@ -27,9 +27,9 @@ export const ImageContainer = styled.div`
   }
 `;
 export const Title = styled.h2`
-  font-family: 'Poppins', sans-serif;
+  font-family: 'museo-sans', sans-serif;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 900;
   font-style: normal;
   font-stretch: normal;
   text-decoration: none;
@@ -40,9 +40,9 @@ export const Title = styled.h2`
   display: block;
 `;
 export const Type = styled.h3`
-  font-family: Poppins, sans-serif;
+  font-family: museo-sans, sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.6;

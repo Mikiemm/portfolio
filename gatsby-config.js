@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Markéta Švidrnochová',
-    description: 'UI/UX Designer currently studying Digital Design in Czechia',
+    description: 'UI/UX Designer currently studying Digital Design in Belgium',
   },
   plugins: [
     {

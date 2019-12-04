@@ -18,6 +18,14 @@ export const Header = styled('main')`
 
   top: 0;
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+
+  @media (max-width: 1024px) {
+    position: static;
+    height: auto;
+    max-height: 80vh;
+    padding: 144px 50px 50px;
+  }
 
   @media (max-width: 800px) {
     position: static;
@@ -34,21 +42,25 @@ export const Name = styled.h1`
   font-style: normal;
   font-stretch: normal;
   line-height: 1.33;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: ${colors.black};
+  font-family: 'museo-sans', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  color: ${colors.grey};
   word-spacing: 100vw;
-  padding-right: 70px;
+  padding-right: 105px;
   &:after {
     display: block;
-    content: "—";
+    content: "";
+    width: 2em;
+    height: 2px;
+    background: currentColor;
+    margin: 0.5em 0 0.6em;
   }
 `
 
 export const Description = styled.p`
-  font-family: Poppins, sans-serif;  
-  font-size: 16px;
+  font-family: museo-sans, sans-serif;  
+  font-size: 18px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -59,9 +71,9 @@ export const Description = styled.p`
 `
 
 const Link = styled.a`
-  font-family: Poppins, sans-serif;
+  font-family: museo-sans, sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.6;
@@ -73,10 +85,10 @@ const Link = styled.a`
   display: inline-flex;
   align-items: center;
 
-  margin-right: 1rem;
+  margin-right: 1.2rem;
 
   & svg {
-    margin-left: 3px;
+    vertical-align: text-bottom;
   }
   
   &:hover {
