@@ -3,10 +3,17 @@
   "npm.scriptExplorerAction": "run",
   "files.exclude": {
     "**/.cache": true,
+    "**/.yarn": true,
     "**/public": true
   },
   "zenMode.fullScreen": false,
   "zenMode.hideActivityBar": false,
   "zenMode.centerLayout": false,
   "problems.autoReveal": false,
+  "search.exclude": {
+    "**/.yarn": true
+  },
+  "files.watcherExclude": {
+    "**/.yarn/**": true
+  },
 }
